@@ -5,7 +5,9 @@ import csv
 padrones = [
     {'path': 'Mendiolaza/Padron-Mendiolaza-Gobernador-2015.csv', 'dni_column': 1, 'nombre': 'Mendiolaza'}, 
     {'path': 'Villa-Allende/Padron-Villa-Allende-intendente-2015.csv', 'dni_column': 1, 'nombre': 'Villa Allende'},
-    {'path': 'Colonia-Caroya/PADRON_COLONIA_CAROYA_2015.csv', 'dni_column': 0, 'nombre': 'Colonia Caroya'}
+    {'path': 'Colonia-Caroya/PADRON_COLONIA_CAROYA_2015.csv', 'dni_column': 0, 'nombre': 'Colonia Caroya'},
+    {'path': 'Hernando/Hernando-2015.csv', 'dni_column': 1, 'nombre': 'Hernando'}
+    
     ]
 
 
