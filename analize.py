@@ -89,7 +89,7 @@ for p in padrones:
 
         # Testing cleaner ----
         if p['nombre'] == 'Mendiolaza':
-            from Mendiolaza.cleaner import Cleaner
+            from padronesListos.Mendiolaza.cleaner import Cleaner
             c = Cleaner()
             domicilio = c.clean(domicilio)
             
