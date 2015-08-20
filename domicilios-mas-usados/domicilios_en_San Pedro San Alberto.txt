@@ -1,5 +1,5 @@
 DOMICILIOS MAS USADOS EN EL PADRON: San Pedro San Alberto
-Cantidad de votantes en el padron: 4017
+Cantidad de votantes en el padron: 4007
 Cantidad de domicilios diferentes: 2248
 Errores al leer domicilios: 0
 

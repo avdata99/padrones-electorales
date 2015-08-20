@@ -32,7 +32,13 @@ for p in padrones:
     for line in reader:
         total_votantes_padron[p['nombre']] = total_votantes_padron[p['nombre']] + 1
         # -------------------DNIs--------------------------------------------
-        dni = line[p['dni_column']]
+        try:
+            dni = line[p['dni_column']]
+        except Exception, e:
+            print "Error Padron %s" % p['nombre']
+            print str(p)
+            print str(line)
+            exit(1)
         dni = str(dni).strip()
         dni = dni.replace('.', '')
         try:
