@@ -20,7 +20,6 @@ for line in reader:
 votantes = {} # DNI: los demas datos del votante y padron (todos juntos)
 total_votantes_padron = {} # votantes total de cada padron
 dnis = [] # lista de dnis cargados
-duplicados = [] # lista final de duplicados
 domicilios = {} # contador de domicilios por padron
 
 for p in padrones:
@@ -44,24 +43,17 @@ for p in padrones:
         try:
             dni = int(dni)
         except Exception, e:
-            print "DNI no valido %s %s" % (dni, str(e))
+            print "Padron %s. DNI no valido '%s' %s" % (p['nombre'], dni, str(e))
             continue
 
         linea = unicode(line)
         este = {'Padron': p['nombre'], 'linea': linea}
         
         if dni in dnis: # puede haber duplicados denotr de un mismo padron
-            print "-----------------\nDuplicate"
-            print unicode(votantes[dni])
-            print unicode(este)
-            duplicados.append({'dni': dni, 'Padron1': p['nombre'],
-                               'Padron2': votantes[dni]['Padron'],
-                               'DatosPadron1':linea,
-                               'DatosPadron2':votantes[dni]['linea'],
-                               })
+            votantes[dni].append(este)
         else:
             dnis.append(dni)
-            votantes[dni] = este
+            votantes[dni] = [este]
 
         # -------------------DOMICILIOs--------------------------------------
         # algunas veces le faltan comas ...
@@ -111,16 +103,15 @@ for p in padrones:
 
 # DNIs repetidos
 with open('dnis_repetidos.csv', 'w') as csvfile:
-    fieldnames = ['DNI','Padron 1', 'Padron 2', 'Datos en Padron 1', 'Datos en Padron 2']
+    fieldnames = ['DNI','Padron', 'Extras']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     writer.writeheader()
-    for d in duplicados:
-        writer.writerow({'DNI': d['dni'], 
-                         'Padron 1': d['Padron1'], 
-                         'Padron 2': d['Padron2'], 
-                         'Datos en Padron 1': d['DatosPadron1'], 
-                         'Datos en Padron 2': d['DatosPadron2']})
+    for dni, votantes in votantes.iteritems():
+        if len(votantes) > 1:
+            writer.writerow({'DNI': '--------', 'Padron': '--------', 'Extras': '---------------------------'})
+            for v in votantes:
+                writer.writerow({'DNI': dni, 'Padron': v['Padron'], 'Extras': v['linea']})
 
 
 # domicilios mas usados por ciudad
