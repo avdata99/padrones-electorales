@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """ encontrar numeros de DNI duplicados en diferentes padrones """
 import csv
+import codecs
+
 
 # cargar todos los padrones al sistema
 pi = open('padrones_index.csv', 'r')
@@ -74,9 +76,23 @@ for p in padrones:
             continue
             
         # quitar espacios multiples
+        try:
+            domicilio = domicilio if type(domicilio) == unicode else domicilio.decode('utf-8')
+        except Exception, e:
+            print "type %s" % str(type(domicilio))
+            print "DOM error %s" % domicilio
+            print str(e)
+            exit(1)
+        
         domicilio = ' '.join(domicilio.split())
-        domicilio = domicilio.lower()
+        domicilio = domicilio.upper()
 
+        # Testing cleaner ----
+        if p['nombre'] == 'Mendiolaza':
+            from Mendiolaza.cleaner import Cleaner
+            c = Cleaner()
+            domicilio = c.clean(domicilio)
+            
         if domicilios[p['nombre']]['domicilios'].get(domicilio, None):
             domicilios[p['nombre']]['domicilios'][domicilio]['total'] = domicilios[p['nombre']]['domicilios'][domicilio]['total'] + 1
             domicilios[p['nombre']]['domicilios'][domicilio]['usos'].append(linea)
@@ -103,8 +119,8 @@ with open('dnis_repetidos.csv', 'w') as csvfile:
 for p in padrones:
     lista = domicilios[p['nombre']]['domicilios']
     lista_ord = sorted(lista.iteritems(), key=lambda d: d[1].get('total', {}), reverse=True)
-    
-    f = open('domicilios-mas-usados/domicilios_en_%s.txt' % p['nombre'], 'w')
+
+    f = codecs.open('domicilios-mas-usados/domicilios_en_%s.txt' % p['nombre'], 'w', encoding='utf8')
     f.write('DOMICILIOS MAS USADOS EN EL PADRON: %s\n' % p['nombre'])
     f.write('Cantidad de domicilios diferentes: %d\n' % len(lista))
     f.write('Errores al leer domicilios: %d\n' % len(domicilios[p['nombre']]['errores']))
