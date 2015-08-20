@@ -1,4 +1,5 @@
 DOMICILIOS MAS USADOS EN EL PADRON: Colonia Caroya
+Cantidad de votantes en el padron: 16244
 Cantidad de domicilios diferentes: 12478
 Errores al leer domicilios: 0
 

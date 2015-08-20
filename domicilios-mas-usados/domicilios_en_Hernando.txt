@@ -1,4 +1,5 @@
 DOMICILIOS MAS USADOS EN EL PADRON: Hernando
+Cantidad de votantes en el padron: 9540
 Cantidad de domicilios diferentes: 7665
 Errores al leer domicilios: 0
 

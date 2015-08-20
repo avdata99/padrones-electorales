@@ -1,4 +1,5 @@
 DOMICILIOS MAS USADOS EN EL PADRON: Mendiolaza
+Cantidad de votantes en el padron: 8716
 Cantidad de domicilios diferentes: 5292
 Errores al leer domicilios: 0
 

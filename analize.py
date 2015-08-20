@@ -17,7 +17,8 @@ for line in reader:
              
 
 
-votantes = {} # DNI: los demas datos del votante y padron
+votantes = {} # DNI: los demas datos del votante y padron (todos juntos)
+total_votantes_padron = {} # votantes total de cada padron
 dnis = [] # lista de dnis cargados
 duplicados = [] # lista final de duplicados
 domicilios = {} # contador de domicilios por padron
@@ -27,8 +28,9 @@ for p in padrones:
     reader = csv.reader(f)
 
     domicilios[p['nombre']] = {'errores': [], 'domicilios': {}} # inicializar contador de domicilios
-    
+    total_votantes_padron[p['nombre']] = 0
     for line in reader:
+        total_votantes_padron[p['nombre']] = total_votantes_padron[p['nombre']] + 1
         # -------------------DNIs--------------------------------------------
         dni = line[p['dni_column']]
         dni = str(dni).strip()
@@ -122,6 +124,7 @@ for p in padrones:
 
     f = codecs.open('domicilios-mas-usados/domicilios_en_%s.txt' % p['nombre'], 'w', encoding='utf8')
     f.write('DOMICILIOS MAS USADOS EN EL PADRON: %s\n' % p['nombre'])
+    f.write('Cantidad de votantes en el padron: %d\n' % total_votantes_padron[p['nombre']])
     f.write('Cantidad de domicilios diferentes: %d\n' % len(lista))
     f.write('Errores al leer domicilios: %d\n' % len(domicilios[p['nombre']]['errores']))
     f.write('\n===========================================\n')
