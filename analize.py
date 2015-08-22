@@ -2,7 +2,7 @@
 """ encontrar numeros de DNI duplicados en diferentes padrones """
 import csv
 import codecs
-
+import os
 
 # cargar todos los padrones al sistema
 pi = open('padrones_index.csv', 'r')
@@ -12,9 +12,20 @@ for line in reader:
     # path, dni_column, nombre, calle_column, calle_nro_column, depto_column, barrio_column = line
     padron = {'path': line[0],'dni_column': int(line[1]), 'nombre': line[2],'calle_column': int(line[3]),
                 'calle_nro_column': int(line[4]), 'depto_column': int(line[5]),'barrio_column': int(line[6])}
-    print str(padron)
+    # print str(padron)
+    # detectar si hay un <cleaner>
+    ps = padron['path'].split('/')
+    padron['folder'] = ps[1]
+    cleaner = '%s/%s/cleaner.py' % (ps[0], padron['folder'])
+    if not os.path.exists(cleaner):
+        print '%s NO tienen cleaner %s' % (padron['nombre'], cleaner)
+        cleaner = None
+    else:
+        print '%s SI tienen cleaner %s' % (padron['nombre'], cleaner)
+        
+    padron['cleaner'] = cleaner
     padrones.append(padron)
-             
+    
 
 
 votantes = {} # DNI: los demas datos del votante y padron (todos juntos)
@@ -88,8 +99,10 @@ for p in padrones:
         domicilio = domicilio.upper()
 
         # Testing cleaner ----
-        if p['nombre'] == 'Mendiolaza':
-            from padronesListos.Mendiolaza.cleaner import Cleaner
+        if p['cleaner']:
+            imp = 'padronesListos.%s.cleaner' % p['folder']
+            _temp = __import__(imp, globals(), locals(), ['Cleaner'], -1)
+            Cleaner = _temp.Cleaner
             c = Cleaner()
             domicilio = c.clean(domicilio)
             
