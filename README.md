@@ -34,6 +34,13 @@ de refinamiento de estos datos.
 Por otro lado el archivo **dnis_repetidos.csv** incluirá los votantes repetidos 
 en todos los padrones vía el Documento Nacional de Identidad de cada uno.  
 
+### Refinado
+
+Para hacer reemplazos masivos se puede (*debe*) agregar un archivo **cleaner.py** 
+a los directorios de los padrones. Algunos ya los incluyen y pueden servir de ejemplo.  
+Pueden usarse reemplazos simples de texto o expresiones regulares.  
+En caso de existir el archivo este será importado dinámicamente y procesado.  
+
 ### Colaboración
 
 Aquel que tenga padrones oficiales puede enviarlos por email a andres@data99.com.ar 
