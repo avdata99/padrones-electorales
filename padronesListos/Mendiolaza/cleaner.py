@@ -161,6 +161,7 @@ class Cleaner():
                 (u'B°4HOJAS-', u'4 HOJAS - '), 
                 (u'CUATRO HOJAS ', u'4 HOJAS - '), 
                 (u'B°4 HOJAS ', u'4 HOJAS - '),
+                (u'4 HOLAS ', u'4 HOJAS - '),
                 
                 (u'B°CENTRO', u''), 
                 (u'B° CENTRO', u''),
@@ -234,8 +235,6 @@ class Cleaner():
                 (u'LAS MALVINAS', u'MALVINAS'),
                 (u'MALVINAS ARGENTINAS', u'MALVINAS'),
                 
-                
-                
                 (u'S/N', u''),
                 (u'N°', u' '),
                 (u'-', u' ')))
@@ -249,8 +248,8 @@ class Cleaner():
         domicilio = domicilio.strip()
         domicilio = ' '.join(domicilio.split()) 
 
-        lotes = ['(?P<prev>.*)[MZ|MZA|MZNA](?P<manzana>[\s0-9]+)[LT|L|LOTE](?P<lote>[\s0-9]+)(?P<pos>.*)', 
-                 '(?P<prev>.*)[LT|L|LOTE](?P<lote>[\s0-9]+)[MZ|MZA|MZNA](?P<manzana>[\s0-9]+)(?P<pos>.*)']
+        lotes = ['(?P<prev>.*)(MZ|MZA|MZNA)(?P<manzana>[\s0-9]+)(LT|L|LOTE)(?P<lote>[\s0-9]+)(?P<pos>.*)', 
+                 '(?P<prev>.*)(LT|L|LOTE)(?P<lote>[\s0-9]+)(MZ|MZA|MZNA)(?P<manzana>[\s0-9]+)(?P<pos>.*)']
         for lote in lotes:
             p = re.compile(lote)
             m = p.search(domicilio)
@@ -259,9 +258,12 @@ class Cleaner():
                 lote = m.group('lote').strip()
                 prev = m.group('prev').strip()
                 pos = m.group('pos').strip()
-                domicilio2 = "%s Manzana %s Lote %s %s" % (prev, manzana, lote, pos)
-                print "Cambiando (%s) a (%s)" % (domicilio, domicilio2)
+                domicilio2 = "%s MANZANA %s LOTE %s %s" % (prev, manzana, lote, pos)
+                # print "Cambiando (%s) a (%s)" % (domicilio, domicilio2)
                 domicilio = domicilio2
+                domicilio = domicilio.strip()
+                domicilio = ' '.join(domicilio.split()) 
                 break
+                
         return domicilio
         
