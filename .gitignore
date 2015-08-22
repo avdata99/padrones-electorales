@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *.nja
 *~
+.~lock*
+
 # C extensions
 *.so
 
