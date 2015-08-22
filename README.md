@@ -27,7 +27,10 @@ Luego de ejecutados los procesos en la carpeta **/domicilios-mas-usados** se
 escribirá un archivo por cada padrón con los docimicilios más usados. Este 
 archivo es bastante extenso y entrega primero una lista de los domicilios y 
 en segunda instancia el detalle de los votantes incluidos en cada domicilio.  
-
+Muchos domicilios por falta de *numero de casa* o nombres de calles mal escritos 
+están mal y distorcionan los resultados. Se requiere ayuda en el proceso 
+de refinamiento de estos datos.  
+  
 Por otro lado el archivo **dnis_repetidos.csv** incluirá los votantes repetidos 
 en todos los padrones vía el Documento Nacional de Identidad de cada uno.  
 
