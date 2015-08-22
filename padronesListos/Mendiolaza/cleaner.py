@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """ cleaner para domicilios"""
 from collections import OrderedDict
+import re
 
 
 class Cleaner():
@@ -23,6 +24,7 @@ class Cleaner():
                 
                 
                 (u'CUATRO', u'4'),
+                (u'DIECISEIS', u'16'),
                 (u'SEIS', u'6'),
                 (u'SIETE', u'7'),
                 (u'OCHO', u'8'),
@@ -246,5 +248,20 @@ class Cleaner():
 
         domicilio = domicilio.strip()
         domicilio = ' '.join(domicilio.split()) 
+
+        lotes = ['(?P<prev>.*)[MZ|MZA|MZNA](?P<manzana>[\s0-9]+)[LT|L|LOTE](?P<lote>[\s0-9]+)(?P<pos>.*)', 
+                 '(?P<prev>.*)[LT|L|LOTE](?P<lote>[\s0-9]+)[MZ|MZA|MZNA](?P<manzana>[\s0-9]+)(?P<pos>.*)']
+        for lote in lotes:
+            p = re.compile(lote)
+            m = p.search(domicilio)
+            if m:
+                manzana = m.group('manzana').strip()
+                lote = m.group('lote').strip()
+                prev = m.group('prev').strip()
+                pos = m.group('pos').strip()
+                domicilio2 = "%s Manzana %s Lote %s %s" % (prev, manzana, lote, pos)
+                print "Cambiando (%s) a (%s)" % (domicilio, domicilio2)
+                domicilio = domicilio2
+                break
         return domicilio
         
