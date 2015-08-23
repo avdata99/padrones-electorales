@@ -14,7 +14,10 @@ casos fue necesario algun posprocesamiento (que se incluye).
   
 Algunos padrones todavía no han podido procesarse y se encuentran en la 
 carpeta **/padronesAProcesar**.  
-  
+
+He estado usando **TabulaPDF** con bastante exito para los procesos iniciales.  
+Seguramente será util en todos los casos.  
+
 ### Ejecutar todos los procesos
 
 ```
