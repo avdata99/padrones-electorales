@@ -103,8 +103,7 @@ class Cleaner():
                 
                 (u'B°LOS ESPAÑOLES', ''),
                 (u'-MENDIOLAZA-', u''),
-                (u'B°PERCHEL', u''),
-
+                
                 (u'EL TALAR - ', u''),
                 (u'EL TALAR -', u''),
                 (u'B°EL TALAR-', u''), 
@@ -171,13 +170,19 @@ class Cleaner():
                 (u'B°M CENTRO', u''),
                 (u'B°MEND CENTRO', u''),
                 (u'B°RES CENTRO', u''),
-                
+
                 (u'B°EL PERCHEL-', u''),
                 (u'B°EL PERCHEL', u''),
+                (u'B°PERCHEL', u''),
+                (u'B° PERCHEL', u''),
+                (u'B° EL PERCHEL', u''),
                 (u'EL PERCHEL', u''),
+                
                 
                 (u'BELTEVEO', u'BENTEVEO'),
                 (u'BOBADILLAS', u'BOBADILLA'),
+                (u'G BOBADILLA', u'GREGORIO BOBADILLA'),
+                (u'GREGORIO BOBADILLA', u'BOBADILLA'),
                 (u'BV. ITALIA', u'BV ITALIA'),
                 (u'BVARD ITALIA/CORDOBA', u'BV ITALIA ESQ CORDOBA'),
                 (u'BS AS', u'BUENOS AIRES'),
