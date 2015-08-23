@@ -168,6 +168,9 @@ class Cleaner():
             (u'JUAN DOMINGO PERON', u'PERON'),
             (u'JUAN PERON', u'PERON'),
             
+            (u'S/N', u''),
+            (u'N°', u' '),
+            (u'-', u' '),
             ))
 
     def clean(self, domicilio):
