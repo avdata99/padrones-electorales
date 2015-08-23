@@ -7,15 +7,28 @@ class Cleaner():
 
     replaces = OrderedDict((
             (u'B°CENTRO-', u''),
+            (u'-B°CENTRO', u''),
+            
             (u'B° NORTE-', u''),
             (u'B°CANTEGRIL-', u''),
             (u'B°LOS NOGALES(N)-', u''),
-            (u'B° ÑU PORA-', u''),
-            (u'B°ÑU PORA-', u''),
             (u'B°LA QUEBRADA-', u''),
+
             (u'B°LOZA-', u''),
             (u'B° LOZA-', u''),
+            (u'-B°LOZA', u''),
+            (u'-B° LOZA', u''),
+            (u'BILOZA-', u''),
+            
+            (u'B° SANTA FE-', u''),
+            
             (u'B°A DEL PEÑON-', u''),
+
+            (u'B° ÑU PORA-', u''),
+            (u'B°ÑU PORA-', u''),
+            (u'-B°ÑUPORA', u''),
+            (u'-B° ÑUPORA', u''),
+            
             (u'SGTO CABRAL', u'SARGENTO CABRAL'),
             (u'AV S MARTIN', u'SAN MARTIN'),
             (u'AV SAN MARTIN', u'SAN MARTIN'),
@@ -38,11 +51,47 @@ class Cleaner():
             (u'ABRAHAM LINCOLN', u'LINCOLN'),
             (u'ABRAHAM LINCOL', u'LINCOLN'),
             (u'PJE ABRAHAM LINCOLN', u'LINCOLN'),
-            (u'E SCHIAFFINO', u'SCHIAFFINO'),
+            (u'ENRIQUE ESCHIAFFINO', u'SCHIAFFINO'),
             (u'ENRIQUE SCHIAFINO', u'SCHIAFFINO'),
+            (u'E SCHIAFFINO', u'SCHIAFFINO'),
+            (u'ESCHIAFFINO', u'SCHIAFFINO'),
             (u'F ALCORTA', u'FIGUEROA ALCORTA'),
             (u'D FUNES', u'DEAN FUNES'),
             (u'RIO BAMBA', u'BAMBA'),
+            (u'BME MITRE', u'MITRE'),
+            (u'BARTOLOME MITRE', u'MITRE'),
+            (u'B MITRE', u'MITRE'),
+            (u'PJE BARTOLOME MITRE', u'MITRE'),
+            (u'J J PASO', u'JUAN JOSE PASO'),
+            (u'JUAN J PASO', u'JUAN JOSE PASO'),
+            (u'J JOSE PASO', u'JUAN JOSE PASO'),
+            (u'ALTE BROWN', u'ALMIRANTE BROWN'),
+            (u'J B ALBERDI', u'ALBERDI'),
+            (u'JUAN B ALBERDI', u'ALBERDI'),
+            (u'JUAN BAUTISTA ALBERDI', u'ALBERDI'),
+            (u'J BAUTISTA ALBERDI', u'ALBERDI'),
+            (u'J ALBERDI', u'ALBERDI'),
+            (u'B ALBERDI', u'ALBERDI'),
+            (u'J L CABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'JOSE LUIS CABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'J L DE CABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'JOSE CABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'JOSE DE CABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'JOSE A DE CABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'JOSE L DE CABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'J A DE CABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'JOSE L CPERONABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'J A CABRERA', u'JOSE LUIS DE CABRERA'),
+            (u'JO LUIS DE CABRERA', u'JOSE LUIS DE CABRERA'),
+            
+            (u'RDIOS DE ESCALADA', u'REMEDIOS DE ESCALADA'),
+            
+            (u'JUAN D PERON', u'PERON'),
+            (u'GRAL PERON', u'PERON'),
+            (u'JUAN D PERON', u'PERON'),
+            (u'JUAN DOMINGO PERON', u'PERON'),
+            (u'JUAN PERON', u'PERON'),
+            
             ))
 
     def clean(self, domicilio):
