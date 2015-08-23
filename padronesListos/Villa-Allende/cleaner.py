@@ -24,6 +24,7 @@ class Cleaner():
             (u'blomas sur barcelona', u'barcelona'),
             (u'd quiros', u'duarte quiros'),
             
+            
             ))
 
     def clean(self, domicilio):
@@ -37,6 +38,22 @@ class Cleaner():
         domicilio = domicilio.strip()
         domicilio = ' '.join(domicilio.split()) 
 
+        # quitar barrios
+        barrios = [u'(?P<barrio>B°[\s0-9A-Z]+\-)(?P<domicilio>.*)', 
+                   u'(?P<barrio>Bº[\s0-9A-Z]+\-)(?P<domicilio>.*)', 
+                   ]
+
+        for b in barrios:
+            p = re.compile(b, flags=re.UNICODE)
+            m = p.search(domicilio)
+            if m:
+                # print m.group('barrio')
+                # print m.group('domicilio')
+                # print "CLEAN %s FOR %s" % (domicilio, m.group('domicilio'))
+                domicilio = m.group('domicilio')
+                break
+        
+        
         lotes = ['(?P<prev>.*)(MZ|MZA|MZNA)(?P<manzana>[\s0-9]+)(LT|L|LOTE|LTE)(?P<lote>[\s0-9]+)(?P<pos>.*)', 
                  '(?P<prev>.*)(LT|L|LOTE|LTE)(?P<lote>[\s0-9]+)(MZ|MZA|MZNA)(?P<manzana>[\s0-9]+)(?P<pos>.*)']
         for lote in lotes:
