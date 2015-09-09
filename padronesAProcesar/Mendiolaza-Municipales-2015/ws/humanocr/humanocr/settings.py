@@ -44,12 +44,13 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'humanocr',
 )
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -94,6 +95,8 @@ STATIC_URL = '/static/'
 STATIC_ROOT = '/home/junar/andres/devs/padrones-electorales/padronesAProcesar/Mendiolaza-Municipales-2015/ws/humanocr/humanocr/staticroot/'
 STATICFILES_DIRS = (
     '/home/junar/andres/devs/padrones-electorales/padronesAProcesar/Mendiolaza-Municipales-2015/ws/humanocr/humanocr/static/',
+    # '/home/junar/andres/devs/padrones-electorales/padronesAProcesar/Mendiolaza-Municipales-2015/323pages/',
+    
 )
 
 PROCESSINGF = os.path.join('/home/junar/andres/devs/padrones-electorales/padronesAProcesar/Mendiolaza-Municipales-2015/ws/humanocr/humanocr/static/processing')

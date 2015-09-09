@@ -3,39 +3,100 @@
 <html>
     <head>
         <script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'css/ver.css' %}">
     </head>
     <body>
         <h1>Corregir textos</h1>
         
         <h2>Archivos</h2>
-        
+        <div>Tipo <b>{{tipo}}</b> en la página {{pagina}}</div>
+
+        <div id='file_list'>
+            {% for f in archives%}
+                <a class="flist" id="{{f}}" onClick='load("{{f}}")'>{{f}}</a>
+            {% endfor %}
+        </div>
+
         <div style='float: left'>
-        <div>
-            <img id='OCRimage' />
-        </div>
-        <div>
-            <textarea rows=8 cols=60 id='OCRtext'>HOLA</textarea>
-        </div>
+            <div> <img id='OCRimage' /> </div>
+            <div> <textarea rows=6 cols=35 id='OCRtext' class='ta'>HOLA</textarea> </div>
+            <div> <button id='dotext'>aceptar</button> </div>
         </div>
         
-        <div style='float: left; max-height: 500px; overflow:scroll'>
-        {% for f in archives%}
-            <br /><a onClick='load("{{f}}")'>{{f}}</a>
-        {% endfor %}
-        <div>
         
         <script>
+            var lastSelected ='';
             load = function(file){
-                $('#OCRimage').attr('src', '/static/processing/' + file + '.png');
+                p = file.split('-'); // dni-10-col2-page-261;
+                tipo = p[0];
+                orden = p[1];
+                columna = p[2].replace('col', '');
+                pagina = p[4].replace('.png', '');
+                url_img = '/image/' + tipo + '/' + orden + '/' + columna + '/' + pagina;
+                url_txt = '/text/' + tipo + '/' + orden + '/' + columna + '/' + pagina;
+                $('#OCRimage').attr('src', url_img);
 
                 $.ajax({
-                       url : '/static/processing/' + file + '.png.txt',
+                       url : url_txt,
                        dataType: "text",
                        success : function (data) {
-                           $("#OCRtext").text(data);
+                           $("#OCRtext").val(data);
                        }
                    });
-                }
+                   
+                if (lastSelected) $("#" + lastSelected).removeClass('selected');
+                lastSelected = file;
+                $("#" + file).addClass('selected');
+                };
+                
+            nextf = function(){
+                f = $(".flist");
+                if (f.length>0){
+                    f = f[0];
+                    load(f.id);
+                    }
+                else {
+                    // next page
+                    p = lastSelected.split('-'); // dni-10-col2-page-261;
+                    tipo = p[0];
+                    orden = p[1];
+                    columna = p[2].replace('col', '');
+                    pagina = p[4].replace('.png', '');
+                    pagina = parseInt(pagina) + 1;
+
+                    window.location='/ver/' + tipo + '/' + pagina;
+                    }
+                };
+
+            $(function() {
+                nextf();
+                $("#dotext").click(function(){
+                    // grabar y elimiar de la lista al elegido
+                    if (!lastSelected) return false;
+                    
+                    p = lastSelected.split('-'); // dni-10-col2-page-261;
+                    tipo = p[0];
+                    orden = p[1];
+                    columna = p[2].replace('col', '');
+                    pagina = p[4].replace('.png', '');
+                    
+                    params = {tipo: tipo, columna: columna, orden: orden, pagina: pagina, value:$("#OCRtext").val()};
+                    
+                    $.ajax({
+                       url : '/set',
+                       method: "POST",
+                       data: params,
+                       success : function (data) {
+                            $("#" + lastSelected).remove();
+                            nextf();
+                    
+                       }
+                   });
+                    
+                    });
+            });
+                
+            
         </script>
     </body>
 </html>
