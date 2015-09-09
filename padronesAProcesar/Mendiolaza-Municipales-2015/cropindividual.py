@@ -34,7 +34,7 @@ for filename in archives:
     p = re.compile(pat)
     m = p.search(filename)
     page = int(m.group('page').strip())
-    if page > 1: continue # solo la primera pagina
+    # if page > 1: continue # solo la primera pagina
     
     pbm = '%s/%s' % (path_pbms, filename)
 
@@ -148,6 +148,13 @@ for filename in archives:
     
         print "EXEC %s" % str(params)
         subprocess.call(params)
+
+        # leer texto
+
+        params = ['tesseract', png_dest, png_dest, '-l', 'spa']
+        print "EXEC %s" % str(params)
+        subprocess.call(params)
+        
 
 """
 # ver los pngs resultantes e ir grabandolo en un archivod de texto nuevo
