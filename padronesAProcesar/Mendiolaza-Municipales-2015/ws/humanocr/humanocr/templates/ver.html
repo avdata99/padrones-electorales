@@ -1,7 +1,41 @@
-<h1>Corregir textos</h1>
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+    </head>
+    <body>
+        <h1>Corregir textos</h1>
+        
+        <h2>Archivos</h2>
+        
+        <div style='float: left'>
+        <div>
+            <img id='OCRimage' />
+        </div>
+        <div>
+            <textarea rows=8 cols=60 id='OCRtext'>HOLA</textarea>
+        </div>
+        </div>
+        
+        <div style='float: left; max-height: 500px; overflow:scroll'>
+        {% for f in archives%}
+            <br /><a onClick='load("{{f}}")'>{{f}}</a>
+        {% endfor %}
+        <div>
+        
+        <script>
+            load = function(file){
+                $('#OCRimage').attr('src', '/static/processing/' + file + '.png');
 
-<h2>Archivos</h2>
-
-{% for f in archives%}
-    <p>{{f}}</p>
-{% endfor %}
+                $.ajax({
+                       url : '/static/processing/' + file + '.png.txt',
+                       dataType: "text",
+                       success : function (data) {
+                           $("#OCRtext").text(data);
+                       }
+                   });
+                }
+        </script>
+    </body>
+</html>

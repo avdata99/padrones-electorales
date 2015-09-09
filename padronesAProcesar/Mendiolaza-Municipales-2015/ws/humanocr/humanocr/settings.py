@@ -83,6 +83,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    )
+    
+BASEF = '/home/junar/andres/devs/padrones-electorales/padronesAProcesar/Mendiolaza-Municipales-2015'
 STATIC_URL = '/static/'
 
-BASEF = '/home/junar/andres/devs/padrones-electorales/padronesAProcesar/Mendiolaza-Municipales-2015'
+STATIC_ROOT = '/home/junar/andres/devs/padrones-electorales/padronesAProcesar/Mendiolaza-Municipales-2015/ws/humanocr/humanocr/staticroot/'
+STATICFILES_DIRS = (
+    '/home/junar/andres/devs/padrones-electorales/padronesAProcesar/Mendiolaza-Municipales-2015/ws/humanocr/humanocr/static/',
+)
+
+PROCESSINGF = os.path.join('/home/junar/andres/devs/padrones-electorales/padronesAProcesar/Mendiolaza-Municipales-2015/ws/humanocr/humanocr/static/processing')

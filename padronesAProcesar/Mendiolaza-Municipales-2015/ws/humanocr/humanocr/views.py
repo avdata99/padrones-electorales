@@ -9,12 +9,11 @@ import glob
 
 
 def ver(request):
-    sdir = settings.BASEF
-    path_pbms = '%s/processing/*.png' % sdir
+    path_pbms = '%s/*.png' % settings.PROCESSINGF
     # archives = os.listdir(path_pbms)
     archives = glob.glob(path_pbms)
     
-    # los pares de una forma y los imapares de otra
-    context = {'archives': [x.split('/')[-1:][0] for x in archives]}
+    pngs = sorted([x.split('/')[-1:][0].replace('.png', '') for x in archives])
+    context = {'archives': pngs}
     return render(request, 'ver.html', context)
     
