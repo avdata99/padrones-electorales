@@ -43,6 +43,10 @@ def getText(request, tipo, orden, pagina, columna):
     value=value.replace('Í', 'i')
     value=value.replace('Ó', 'o')
     value=value.replace('Ú', 'u')
+    value=value.replace('Ñ', 'ñ')
+    value=value.replace('Ü', 'u')
+    
+
 
     if tipo == 'dni':
         value=value.replace(' ', '')
