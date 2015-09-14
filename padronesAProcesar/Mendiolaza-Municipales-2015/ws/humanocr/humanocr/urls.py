@@ -13,5 +13,8 @@ urlpatterns = patterns('',
     url(r'^image/(?P<tipo>[a-z]+)/(?P<orden>[0-9]+)/(?P<columna>[0-9]+)/(?P<pagina>[0-9]+)', 'humanocr.views.getImage', name='getImage'),
     url(r'^text/(?P<tipo>[a-z]+)/(?P<orden>[0-9]+)/(?P<columna>[0-9]+)/(?P<pagina>[0-9]+)', 'humanocr.views.getText', name='getText'),
     url(r'^set$', 'humanocr.views.setText', name='setText'),
+    url(r'^page/(?P<pagina>[0-9]+).pbm', 'humanocr.views.getPage', name='getPage'),
+    url(r'^page/(?P<pagina>[0-9]+).png', 'humanocr.views.getPage', name='getPage'),
+    url(r'^faltantes$', 'humanocr.views.getFaltantes', name='getFaltantes'),
     
 )

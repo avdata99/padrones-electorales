@@ -6,9 +6,8 @@
         <link rel="stylesheet" href="{% static 'css/ver.css' %}">
     </head>
     <body>
-        <h1>Corregir textos</h1>
+        <h2>Padron Mendiolaza municipal 2015</h2>
         
-        <h2>Archivos</h2>
         <div>Tipo <b>{{tipo}}</b> en la página {{pagina}}</div>
 
         <div id='file_list'>
@@ -18,12 +17,16 @@
         </div>
 
         <div style='float: left'>
-            <div> <img id='OCRimage' /> </div>
-            <div> <textarea rows=6 cols=35 id='OCRtext' class='ta'>HOLA</textarea> </div>
-            <div> <button id='dotext'>aceptar</button> </div>
+            <div style="margin: 15px"> <img id='OCRimage' /> </div>
+            <div style="margin: 15px"> <textarea rows=5 cols=55 id='OCRtext' class='ta'>HOLA</textarea> </div>
+            <div style="margin: 15px"> <button id='dotext'>aceptar</button> </div>
         </div>
-        
-        
+
+        <div style="clear:both"></div>
+        <div style="width:90%">
+            <img style="width:100%" src='/page/{{pagina}}.png' />
+        </div>
+
         <script>
             var lastSelected ='';
             load = function(file){
@@ -94,6 +97,14 @@
                    });
                     
                     });
+
+                $("#OCRtext").keydown(function(e){
+                    if (e.keyCode == 13 && e.shiftKey)
+                    {
+                    $('#dotext').trigger('click');
+                    e.preventDefault();
+                    }
+                });
             });
                 
             
