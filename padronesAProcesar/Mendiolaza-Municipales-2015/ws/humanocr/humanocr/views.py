@@ -62,8 +62,14 @@ def getText(request, tipo, orden, pagina, columna):
     """ fuck staticfiles! """
     txt_file = '%s/%s/%s-%s-col%s-page-%s.png.txt' % (settings.BASEF, '323pages', tipo, orden, columna, pagina)
     text_data = open(txt_file, "rb").read()
+
+    value = text_data
+    value=value.replace('  ', ' ')
+    value=value.strip()
+    value=value.lower()
+    
     if tipo=='nombre':
-        lineas = text_data.split('\n')
+        lineas = value.split('\n')
         value=lineas[0]
         if value=='' and len(lineas) > 0:
             value=lineas[1]
@@ -71,12 +77,10 @@ def getText(request, tipo, orden, pagina, columna):
                 value=lineas[2]
             
     else:
-        value=text_data.replace('\n', '')
+        value=value.replace('\n', '')
         value=value.replace('\r', '')
-        
-    value=value.replace('  ', ' ')
-    value=value.strip()
-    value=value.lower()
+    
+    
     value=value.replace('á', 'a')
     value=value.replace('é', 'e')
     value=value.replace('í', 'i')
