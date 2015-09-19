@@ -43,7 +43,7 @@ def getFaltantes(request):
     recursos = 0 # recursos faltantes
     for tipo in ['dni', 'nombre', 'direccion']:
         for pagina in range(323):
-            pagina = str(pagina).zfill(3)
+            pagina = str(pagina).zfill(2)
             path_pbms = '%s/%s/%s*page-%s.png' % (settings.BASEF, '323pages', tipo, pagina) # settings.PROCESSINGF
             archives = glob.glob(path_pbms)
             if len(archives) > 0:
@@ -71,9 +71,9 @@ def getText(request, tipo, orden, pagina, columna):
     if tipo=='nombre':
         lineas = value.split('\n')
         value=lineas[0]
-        if value=='' and len(lineas) > 0:
+        if value=='' and len(lineas) > 1:
             value=lineas[1]
-            if value=='' and len(lineas) > 1:
+            if value=='' and len(lineas) > 2:
                 value=lineas[2]
             
     else:
@@ -90,6 +90,8 @@ def getText(request, tipo, orden, pagina, columna):
     value=value.replace('Á', 'a')
     value=value.replace('É', 'e')
     value=value.replace('Í', 'i')
+    value=value.replace('ï', 'i')
+    value=value.replace('Ï', 'i')
     value=value.replace('Ó', 'o')
     value=value.replace('Ú', 'u')
     value=value.replace('Ñ', 'ñ')
