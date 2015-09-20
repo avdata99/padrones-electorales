@@ -1,16 +1,106 @@
 DNI,Padron,Extras
 --------,--------,---------------------------
+29608981,Villa Allende,"['18754', '29608981', '1982', 'PAEZ', 'MATIAS ANTONIO', 'CALLE CORDOBA', '81', '', 'EST', 'DNI', ' ', '3', '41', 'M', '63', 'RVO.P.G.VERGONJEANNE']"
+29608981,Unquillo,"['29608981', '1982', 'PAEZ', 'MATIAS ANTONIO', '', 'EL TALA 131', 'A', 'DNI-EA', '    3', '  40', '3788', 'M', ' ', '39', '0']"
+--------,--------,---------------------------
+11622106,Mendiolaza,"['2762', '11622106', 'EUSEBIO LILIANA VICTORIA GLORIA', 'EMPL', 'CALLE 6', '67', '']"
+11622106,Unquillo,"['11622106', '1955', 'EUSEBIO', 'LILIANA VICTORIA GLORIA', '', 'MANUEL BELGRANO 703', 'A', 'DNI-ED', '    3', '  40', '3769', 'F', ' ', '94', '0']"
+--------,--------,---------------------------
+20452363,Rio Ceballos,"['16196', '014', '20452363', 'TORANZO', ' PATRICIA', ' URQUIZA 261']"
+20452363,Unquillo,"['20452363', '1968', 'TORANZO', 'PATRICIA', '', '29 DE AGOSTO 24', 'A', 'DNI-EB', '    3', '  40', '3799', 'F', ' ', '91', '0']"
+--------,--------,---------------------------
 28268614,Mendiolaza,"['2391', '28268614', 'DE MARCO FLORENCIA', 'EST', 'MZ.65LT.3-ECIA.Q2', '', '']"
 28268614,Villa Allende,"['7330', '28268614', '1980', 'DE MARCO', 'FLORENCIA', 'GERONA', '1205', '', 'EST', 'DNI', ' ', '3', '41', 'F', '25', 'INST. LUJAN ']"
+--------,--------,---------------------------
+13112877,Villa Allende,"['14234', '13112877', '1957', 'LUDUE\xc3\x91A', 'MERCEDES ERMELINDA', 'R DE JANEIRO 1345', '', '', 'A CASA', '', ' ', '3', '41', 'F', '48', 'INST.NVO MILENIUM']"
+13112877,Unquillo,"['13112877', '1957', 'LUDUE\xc3\x91A', 'MERCEDES ERMELINDA', '', 'SARMIENTO 992', 'A', 'DNI-EA', '    3', '  40', '3779', 'F', ' ', '317', '0']"
+--------,--------,---------------------------
+26484341,Mendiolaza,"['2904', '26484341', 'FERRARO MARCELO JOSE', 'SIN PRO', 'EL TALAR-LOS TILOS', '508', '']"
+26484341,Unquillo,"['26484341', '1978', 'FERRARO', 'MARCELO JOSE', '', 'COSTANERA/DEL TRABAJO S/N', 'A', 'DNI-EA', '    3', '  40', '3770', 'M', ' ', '154', '0']"
+--------,--------,---------------------------
+17834079,Villa Allende,"['8296', '17834079', '1965', 'ESPINDOLA', 'MIGUEL ANGEL', 'SARMIENTO', '1146', '', 'EST', 'DNIC', ' ', '3', '41', 'M', '28', 'INST. LUJAN ']"
+17834079,Unquillo,"['17834079', '1965', 'ESPINDOLA', 'MIGUEL ANGEL', '', 'JACARANDA 230', 'A', 'DNI-EB', '    3', '  40', '3769', 'M', ' ', '13', '0']"
+--------,--------,---------------------------
+36446573,Villa Allende,"['18443', '36446573', '1991', 'ORTIZ', 'MARIO EZEQUIEL', 'PASO DE LOS ANDES', '500', '', 'EST', 'DNI-EA', ' ', '3', '41', 'M', '62', 'RVO.P.G.VERGONJEANNE']"
+36446573,Unquillo,"['36446573', '1991', 'ORTIZ', 'MARIO EZEQUIEL', '', 'COLON S/N', 'A', 'DNI-EB', '    3', '  40', '3787', 'M', ' ', '262', '0']"
+--------,--------,---------------------------
+38020231,Villa Allende,"['64', '38020231', '1994', 'ABREGU', 'DAYANA SOLEDAD', 'LOS PATRICIOS', '946', '', 'EST SEC', 'DNI-EA', ' ', '3', '41', 'F', '1', 'GRAL SAN MARTIN']"
+38020231,Unquillo,"['38020231', '1994', 'ABREGU', 'DAYANA SOLEDAD', '', 'SEGUNDO SOMBRA S/N', 'A', 'DNI-EB', '    3', '  40', '3754', 'F', ' ', '26', '0']"
+--------,--------,---------------------------
+38020261,Villa Allende,"['9134', '38020261', '1994', 'FERREYRA', 'XIMENA AYELEN', 'ESPIRITU SANTO', '1773', '', 'EST SEC', 'DNI-EA', ' ', '3', '41', 'F', '31', 'INST. SAN JOSE']"
+38020261,Unquillo,"['38020261', '1994', 'FERREYRA', 'XIMENA AYELEN', '', 'A VS MARTIN 3802', 'A', 'DNI-EB', '    3', '  40', '3770', 'F', ' ', '318', '0']"
+--------,--------,---------------------------
+36185601,Rio Ceballos,"['3180', '138', '36185601', 'CARRASCO', ' MARIELA IVANA', ' LOZA 215']"
+36185601,Unquillo,"['36185601', '1991', 'CARRASCO', 'MARIELA IVANA', '', 'PJE 3 DE FEBRERO 407', 'A', 'DNI-EC', '    3', '  40', '3762', 'F', ' ', '334', '0']"
+--------,--------,---------------------------
+41595144,Mendiolaza,"['2159', '41595144', 'CORREA JULIETA ALDANA', 'NOCONST', 'CADIZ', '469', '']"
+41595144,Unquillo,"['41595144', '1996', 'CORREA', 'JULIETA ALDANA', '', 'LOS ROBLES S/N', 'A', 'DNI-EB', '    3', '  40', '3765', 'F', ' ', '330', '0']"
 --------,--------,---------------------------
 39071138,Villa Allende,"['25874', '39071138', '1995', 'VELAZQUEZ', 'AGUSTIN', 'GUAMINI-V ALLENDE PQUE', '8413', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'M', '87', 'ESCUELA 17 DE AGOSTO']"
 39071138,Rio Ceballos,"['16834', '272', '39071138', 'VELAZQUEZ', ' AGUSTIN', ' A YUPANQUI/LA PRADERA S/N']"
 --------,--------,---------------------------
+22818756,Mendiolaza,"['4467', '22818756', 'LOPEZ FABIAN MARIO', 'EST', 'B\xc2\xb0L CIGARRALES-DIEZ', '58', '']"
+22818756,Unquillo,"['22818756', '1972', 'LOPEZ', 'FABIAN MARIO', '', 'CONSEJAL NESTOR RAMOS 47', 'A', 'DNI-EA', '    3', '  40', '3779', 'M', ' ', '51', '0']"
+--------,--------,---------------------------
+33831594,Villa Allende,"['10446', '33831594', '1988', 'GAVIO', 'LEANDRO DAVID', 'SAN CLEMENTE', '1656', '', 'EST SEC', 'DNI-EC', ' ', '3', '41', 'M', '35', 'INST. SAN JOSE']"
+33831594,Unquillo,"['33831594', '1988', 'GAVIO', 'LEANDRO DAVID', '', 'COSTANERA 230', 'A', 'DNI-ED', '    3', '  40', '3772', 'M', ' ', '184', '0']"
+--------,--------,---------------------------
+22036197,Villa Allende,"['19816', '22036197', '1971', 'PEREZ', 'ROSA ESTELA', 'PJE DEL CARMEN', '1220', '', 'EST', 'DNID', ' ', '3', '41', 'F', '67', 'RVO.P.G.VERGONJEANNE']"
+22036197,Unquillo,"['22036197', '1971', 'PEREZ', 'ROSA ESTELA', '', '2O DE JUNIOMEN 130', 'A', 'DNI-EA', '    3', '  40', '3789', 'F', ' ', '270', '0']"
+--------,--------,---------------------------
+10051601,Villa Allende,"['10222', '10051601', '1951', 'GARCIA', 'MIRTHA HAYDEE', 'ALSINA 220', '', '', 'EST', 'DNID', ' ', '3', '41', 'F', '35', 'INST. SAN JOSE']"
+10051601,Unquillo,"['10051601', '1951', 'GARCIA', 'MIRTHA HAYDEE', '', 'CURA BROCHERO 300', 'A', 'DNI-EA', '    3', '  40', '3772', 'F', ' ', '108', '0']"
+--------,--------,---------------------------
+28853023,Rio Ceballos,"['2544', '242', '28853023', 'BUSTOS', ' PAOLA CAROLINA', ' MARIANO MORENO 565']"
+28853023,Unquillo,"['28853023', '1981', 'BUSTOS', 'PAOLA CAROLINA', '', 'ALMIRANTE BROWN 551', 'A', 'DNI-EB', '    3', '  40', '3761', 'F', ' ', '84', '0']"
+--------,--------,---------------------------
+22563735,Villa Allende,"['20117', '22563735', '1972', 'PINTO', 'ALEJANDRO ADOLFO', 'SAN FERNANDO', '0', '', 'PRIMCTO', 'DNI-EA', ' ', '3', '41', 'M', '68', 'RVO.P.G.VERGONJEANNE']"
+22563735,Unquillo,"['22563735', '1972', 'PINTO', 'ALEJANDRO ADOLFO DEL VALLE', '', 'JORGE LUIS BORGES 77', 'A', 'DNI-EB', '    3', '  40', '3790', 'M', ' ', '55', '0']"
+--------,--------,---------------------------
+27807742,Villa Allende,"['14886', '27807742', '1979', 'MANERO', 'PABLO', 'PASAJE RICARDO ROJAS', '51', '1-ene.', 'TERCCTO', 'DNI-EA', ' ', '3', '41', 'M', '50', 'INST.NVO MILENIUM']"
+27807742,Unquillo,"['27807742', '1979', 'MANERO', 'PABLO', '', 'LOS MARITIMOS 117', 'A', 'DNI-EB', '    3', '  40', '3781', 'M', ' ', '48', '0']"
+--------,--------,---------------------------
+22373061,Mendiolaza,"['8185', '22373061', 'TRENTO SERGIO GUSTAVO', 'TERCCTO', 'CALLE SEIS 213', '2', '']"
+22373061,Unquillo,"['22373061', '1971', 'TRENTO', 'SERGIO GUSTAVO', '', 'JUAN MANUEL DE ROSAS 49', 'A', 'DNI-EC', '    3', '  40', '3799', 'M', ' ', '257', '0']"
+--------,--------,---------------------------
+23351781,Mendiolaza,"['3757', '23351781', 'GRINOBALT SEBASTIAN ALBERTO', 'EST', 'SEIS', '78', '']"
+23351781,Unquillo,"['23351781', '1973', 'GRINOBALT', 'SEBASTIAN ALBERTO', '', 'VILLA DIAZ-AV BELGRANO', 'A', 'DNI-EA', '    3', '  40', '3774', 'M', ' ', '312', '0']"
+--------,--------,---------------------------
+7955546,Rio Ceballos,"['11889', '287', '07955546', 'OJEDA', ' ESTEBAN MISAEL', ' PJE ARIAS 85']"
+7955546,Unquillo,"['7955546', '1946', 'OJEDA', 'ESTEBAN MISAEL', '', 'PJE ARIAS 85', 'A', 'DNI-EB', '    3', '  40', '3786', 'M', ' ', '255', '0']"
+--------,--------,---------------------------
+36985921,Mendiolaza,"['1147', '36985921', 'BOYERO JUAN M', 'EST SEC', 'MENDIOLAZA GOLF-DORREGO', '382', '']"
+36985921,Unquillo,"['36985921', '1992', 'BOYERO', 'JUAN MANUEL', '', 'B\xc2\xb0MERCEDES-CALLE MERCEDES 11', 'A', 'DNI-EB', '    3', '  40', '3760', 'M', ' ', '131', '0']"
+--------,--------,---------------------------
+36987182,Villa Allende,"['14353', '36987182', '1992', 'LUNA', 'ERIKA LUCIANA', 'CHACABUCO', '321', '', 'EST SEC', 'DNI-EB', ' ', '3', '41', 'F', '48', 'INST.NVO MILENIUM']"
+36987182,Unquillo,"['36987182', '1992', 'LUNA', 'ERIKA LUCIANA', '', 'MARTIN FIERRO 1029', 'A', 'DNI-EC', '    3', '  40', '3780', 'F', ' ', '73', '0']"
+--------,--------,---------------------------
 14449258,Villa Allende,"['16305', '14449258', '1957', 'MOLINA', 'DORA ADRIANA', 'CNO KM 14-GOYENA/ALFONSO', '0', '', 'EST', '', ' ', '3', '41', 'F', '55', 'IPEM RAUL DEL LLANO']"
 14449258,Rio Ceballos,"['10649', '167', '14449258', 'MOLINA', ' DORA ADRIANA', ' GUMERCINDO SAYAGO 38']"
 --------,--------,---------------------------
+28343095,Rio Ceballos,"['7337', '081', '28343095', 'GONZALEZ', ' MIGUEL ANGEL', ' VIRGEN DEL VALLE S/N']"
+28343095,Unquillo,"['28343095', '1975', 'GONZALEZ', 'MIGUEL ANGEL', '', 'GAONA/COSTANERA S/N', 'A', 'DNI-EB', '    3', '  40', '3774', 'M', ' ', '131', '0']"
+--------,--------,---------------------------
+20480719,Mendiolaza,"['8601', '20480719', 'YAPURA LUIS ALEJANDRO', 'SIN PRO', 'AV. TISSERA', '438', '']"
+20480719,Unquillo,"['20480719', '1968', 'YAPURA', 'LUIS ALEJANDRO', '', 'ENTRE RIOS 561', 'A', 'DNI-EB', '    3', '  40', '3802', 'M', ' ', '111', '0']"
+--------,--------,---------------------------
+24472460,Villa Allende,"['17993', '24472460', '1974', 'OJEDA', 'ELISEO RAUL', 'GUADALUPE', '476', '', 'EST', 'DNID', ' ', '3', '41', 'M', '60', 'IPEM RAUL DEL LLANO']"
+24472460,Unquillo,"['24472460', '1974', 'OJEDA', 'ELISEO RAUL', '', 'B\xc2\xb0ALTO ALEGRE-LAS LOMAS 92', 'A', 'DNI-EA', '    3', '  40', '3786', 'M', ' ', '254', '0']"
+--------,--------,---------------------------
+30501800,Mendiolaza,"['4984', '30501800', 'MARTINEZ SEBASTIAN', 'EST', 'REINA MORA', '48', '']"
+30501800,Unquillo,"['30501800', '1983', 'MARTINEZ', 'SEBASTIAN', '', 'LA FRATERNIDAD 32', 'A', 'DNI-EB', '    3', '  40', '3782', 'M', ' ', '74', '0']"
+--------,--------,---------------------------
+25172200,Mendiolaza,"['1809', '25172200', 'CEBALLOS ROQUE ISMAEL', 'EMPL', 'DOS', '291', '']"
+25172200,Unquillo,"['25172200', '1976', 'CEBALLOS', 'ROQUE ISMAEL', '', 'GRAL PAZ 107', 'A', 'DNI-EA', '    3', '  40', '3764', 'M', ' ', '111', '0']"
+--------,--------,---------------------------
+26308336,Villa Allende,"['6811', '26308336', '1977', 'CORZO', 'NORMA BLANCA', 'MATADEROS', '215', '', 'EST', 'DNI', ' ', '3', '41', 'F', '23', 'INST. LUJAN ']"
+26308336,Unquillo,"['26308336', '1977', 'CORZO', 'NORMA BLANCA', '', 'TAHUELCHES 141', 'A', 'DNI-EB', '    3', '  40', '3766', 'F', ' ', '69', '0']"
+--------,--------,---------------------------
 17081214,Colonia Caroya,"['17081214', '1966', 'LUDUE\xc3\x91A', 'MIGUEL ANGEL', 'CALLE 40/UDINE', '', ' ', 'EMPL', 'DNI-EA', ' ', '3', '29', 'M']"
 17081214,Rio Ceballos,"['9241', '243', '17081214', 'LUDUE\xc3\x91A', ' MIGUEL ANGEL', ' DIAGUITAS 34 2']"
+--------,--------,---------------------------
+30189020,Villa Allende,"['20323', '30189020', '1983', 'PONCE', 'MARIA CECILIA', 'YAPEYU', '181', '', 'EST SEC', 'DNI', ' ', '3', '41', 'F', '68', 'RVO.P.G.VERGONJEANNE']"
+30189020,Unquillo,"['30189020', '1983', 'PONCE', 'MARIA CECILIA', '', 'BELGRANO 1725', 'A', 'DNI-EA', '    3', '  40', '3790', 'F', ' ', '187', '0']"
 --------,--------,---------------------------
 23897657,Mendiolaza,"['7355', '23897657', 'SAEZ ANA MARIA', 'SECCTO', 'VIRGEN DE LUJAN', '100', '']"
 23897657,Rio Ceballos,"['14841', '143', '23897657', 'SAEZ', ' ANA MARIA', ' VIRGEN DE LUJAN 100']"
@@ -24,6 +114,12 @@ DNI,Padron,Extras
 33599896,Villa Allende,"['15409', '33599896', '1988', 'MARTINEZ', 'GIMENA', 'TEPUSCO', '462', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'F', '52', 'IPEM RAUL DEL LLANO']"
 33599896,Rio Ceballos,"['9973', '233', '33599896', 'MARTINEZ', ' GIMENA', ' 9 DE JULIO 839']"
 --------,--------,---------------------------
+26178696,Rio Ceballos,"['11371', '145', '26178696', 'MOYANO', ' ROXANA ELIZABETH', ' ALTE BROWN S/N']"
+26178696,Unquillo,"['26178696', '1977', 'MOYANO', 'ROXANA ELIZABETH', '', '25 DE JULIO S/N', 'A', 'DNI-EA', '    3', '  40', '3785', 'F', ' ', '33', '0']"
+--------,--------,---------------------------
+24562370,Villa Allende,"['24602', '24562370', '1975', 'TAPIA', 'DEOLINDA GABRIELA', 'MISIONES', '1073', '', 'PRIMCTO', 'DNI-EA', ' ', '3', '41', 'F', '83', 'ESCUELA 17 DE AGOSTO']"
+24562370,Unquillo,"['24562370', '1975', 'TAPIA', 'DEOLINDA GABRIELA', '', 'J DE IBARBOURU S/N', 'A', 'DNI-EB', '    3', '  40', '3798', 'F', ' ', '128', '0']"
+--------,--------,---------------------------
 28538227,Villa Allende,"['26015', '28538227', '1981', 'VERA', 'FERNANDO', 'SAN JAVIER', '270', '', 'TAXISTA', 'DNI-EB', ' ', '3', '41', 'M', '87', 'ESCUELA 17 DE AGOSTO']"
 28538227,Rio Ceballos,"['16929', '003', '28538227', 'VERA', ' FERNANDO', ' HENRY ARAN 33']"
 --------,--------,---------------------------
@@ -36,6 +132,12 @@ DNI,Padron,Extras
 27314365,Villa Allende,"['24996', '27314365', '1979', 'TORRANO', 'MARIA ANDREA', 'BROWN', '666', '', 'UNIV', 'DNI-EA', ' ', '3', '41', 'F', '84', 'ESCUELA 17 DE AGOSTO']"
 27314365,Rio Ceballos,"['16203', '021', '27314365', 'TORRANO', ' MARIA ANDREA', ' ESQUIU 180']"
 --------,--------,---------------------------
+33388477,Villa Allende,"['6324', '33388477', '1987', 'CONCI', 'JORGE ABRAHAM', 'AV DOMINGO PERON', '231', '', 'EST TER', 'DNI-EA', ' ', '3', '41', 'M', '22', 'INST. LUJAN ']"
+33388477,Unquillo,"['33388477', '1987', 'CONCI', 'JORGE ABRAHAM', '', 'EL JARDIN S/N', 'A', 'DNI-EB', '    3', '  40', '3765', 'M', ' ', '146', '0']"
+--------,--------,---------------------------
+28582530,Rio Ceballos,"['10804', '316', '28582530', 'MONTADA', ' CARINA ESTER', ' SAN MARTIN S/N']"
+28582530,Unquillo,"['28582530', '1981', 'MONTA\xc3\x91A', 'CARINA ESTER', '', 'MARIANO MORENO 60', 'A', 'DNI-EB', '    3', '  40', '3783', 'F', ' ', '320', '0']"
+--------,--------,---------------------------
 20501307,Hernando,"['6101 ', '20501307 ', '', 'MOLINA, MARIA MARCELA ', 'EST ', 'LAS HERAS SUD 254 - ']"
 20501307,Hernando,"['6102 ', '20501307 ', '1968 ', 'MOLINA, MARIA MARCELA ', 'EST ', 'LAS HERAS SUD 254 - ']"
 20501307,Hernando,"['6125 ', '20501307 ', '', 'MOLINA. MARIA MARCELA ', 'EST ', 'LAS HERAS SUD 254 - ']"
@@ -43,17 +145,71 @@ DNI,Padron,Extras
 16833139,Mendiolaza,"['384', '16833139', 'AMUCHASTEGUI MARIA IRIS DEL VALLE', 'EST', 'MZA 24 L', '1', '']"
 16833139,Villa Allende,"['1403', '16833139', '1964', 'AMUCHASTEGUI', 'MARIA IRIS DEL VALLE', 'QUITO', '407', '', 'EST', 'DNI-EA', ' ', '3', '41', 'F', '5', 'GRAL SAN MARTIN']"
 --------,--------,---------------------------
+20504019,Rio Ceballos,"['332', '022', '20504019', 'ALANCAY', ' LILIANA ELIZABET', ' SAN LORENZO 380']"
+20504019,Unquillo,"['20504019', '1969', 'ALANCAY', 'LILIANA ELIZABET', '', 'VUELTA DE OBLIGADO 166', 'A', 'DNI-EB', '    3', '  40', '3755', 'F', ' ', '18', '0']"
+--------,--------,---------------------------
+24180235,Rio Ceballos,"['7884', '010', '24180235', 'HINOJOSA', ' SERGIO ALEJANDRO', ' JOAQUIN RAMIREZ S/N']"
+24180235,Unquillo,"['24180235', '1975', 'HINOJOSA', 'SERGIO ALEJANDRO', '', 'ALMIRANTE BROWN', 'A', 'DNI-EA', '    3', '  40', '3776', 'M', ' ', '132', '0']"
+--------,--------,---------------------------
+26541127,Rio Ceballos,"['367', '057', '26541127', 'ALBARRACIN', ' JOSE MARIA', ' QUEBRADA DE TELLO S/N']"
+26541127,Unquillo,"['26541127', '1977', 'ALBARRACIN', 'JOSE MARIA', '', 'GUARANIES 1415', 'A', 'DNI-EA', '    3', '  40', '3755', 'M', ' ', '49', '0']"
+--------,--------,---------------------------
 8453264,Mendiolaza,"['667', '08453264', 'BALBO RAUL ANTONIO R', 'CHOFER', 'LOS CIGARRALES SEIS', '69', '']"
 8453264,Rio Ceballos,"['1358', '116', '08453264', 'BALBO', ' RAUL ANTONIO RAMON', ' 27 DE ABRIL 59']"
+--------,--------,---------------------------
+16318057,Mendiolaza,"['814', '16318057', 'BASUALDO MARCELO DANIEL', 'NOCONST', 'CADIZ', '219', '']"
+16318057,Unquillo,"['16318057', '1963', 'BASUALDO', 'MARCELO DANIEL', '', 'SARMIENTO 1255', 'A', 'DNI-EB', '    3', '  40', '3758', 'M', ' ', '267', '0']"
+--------,--------,---------------------------
+25756688,Mendiolaza,"['8549', '25756688', 'VITTORE VALERIA', 'EST', 'LA ALAMEDA', '3507', '']"
+25756688,Unquillo,"['25756688', '1977', 'VITTORE', 'VALERIA', '', 'LAS MERCEDES 473', 'A', 'DNI-EA', '    3', '  40', '3802', 'F', ' ', '27', '0']"
+--------,--------,---------------------------
+26282336,Mendiolaza,"['3756', '26282336', 'GRINOBALT JORGE M', 'EST', 'CALLE 16 ESQ 80-B\xc2\xb0L GIRAS', '', '']"
+26282336,Unquillo,"['26282336', '1978', 'GRINOBALT', 'JORGE MAXIMILIANO', '', 'VILLA DIAZ-AV BELGRANO', 'A', 'DNI-EA', '    3', '  40', '3774', 'M', ' ', '311', '0']"
+--------,--------,---------------------------
+21826094,Villa Allende,"['16656', '21826094', '1971', 'MONTEMURRO', 'MARCELA ALEJANDRA', 'BELGRANO', '40', '', 'DOCENTE', 'DNID', ' ', '3', '41', 'F', '56', 'IPEM RAUL DEL LLANO']"
+21826094,Unquillo,"['21826094', '1971', 'MONTEMURRO', 'MARCELA ALEJANDRA', '', 'BELGRANO 40', 'A', 'DNID', '    3', '  40', '3783', 'F', ' ', '326', '0']"
+--------,--------,---------------------------
+12653887,Rio Ceballos,"['6068', '174', '12653887', 'FERREYRA', ' EDELMIRA LUISA', ' VELEZ SARSFIELD 620']"
+12653887,Unquillo,"['12653887', '1956', 'FERREYRA', 'EDELMIRA LUISA', '', 'PJE AUDAY 108', 'A', 'DNI-EA', '    3', '  40', '3770', 'F', ' ', '220', '0']"
 --------,--------,---------------------------
 30218151,Villa Allende,"['23671', '30218151', '1983', 'SCHIAVONE', 'CARLOS ADRIAN', 'CHACABUCO', '1120', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'M', '79', 'ESCUELA 17 DE AGOSTO']"
 30218151,Rio Ceballos,"['15334', '260', '30218151', 'SCHIAVONE', ' CARLOS ADRIAN', ' SAN JOSE 480']"
 --------,--------,---------------------------
+27336747,Rio Ceballos,"['7648', '082', '27336747', 'GUTIERREZ', ' MARTA CECILIA', ' 1 DE MAYO 224']"
+27336747,Unquillo,"['27336747', '1979', 'GUTIERREZ', 'MARTA CECILIA', '', 'PAVON 215', 'A', 'DNI-EB', '    3', '  40', '3775', 'F', ' ', '110', '0']"
+--------,--------,---------------------------
 27336797,Villa Allende,"['25162', '27336797', '1979', 'TOSCANO', 'NATALIA PAULA', 'AV ELPIDIO GONZALEZ', '1060', '', 'BIOQ', 'DNI', ' ', '3', '41', 'F', '84', 'ESCUELA 17 DE AGOSTO']"
 27336797,Rio Ceballos,"['16389', '201', '27336797', 'TOSCANO', ' NATALIA PAULA', ' EDUARDO LOZA 131']"
 --------,--------,---------------------------
+26815103,Mendiolaza,"['7564', '26815103', 'SARCINELLA DARIO CESAR', 'SECCTO', 'LOS CIGARRALES 6', '310', '']"
+26815103,Unquillo,"['26815103', '1978', 'SARCINELLA', 'DARIO CESAR', '', 'SPILIMBERGO ESQ URQUIZA S/N', 'A', 'DNI-EB', '    3', '  40', '3796', 'M', ' ', '64', '0']"
+--------,--------,---------------------------
+18164634,Villa Allende,"['18176', '18164634', '1964', 'OLMOS', 'HILDA BEATRIZ', 'ACONCAGUA 947', '', '', 'SRV DOM', 'DNID', ' ', '3', '41', 'F', '61', 'IPEM RAUL DEL LLANO']"
+18164634,Unquillo,"['18164634', '1964', 'OLMOS', 'HILDA BEATRIZ', '', 'MARTIN FIERRO S/N', 'A', 'DNI-EB', '    3', '  40', '3787', 'F', ' ', '102', '0']"
+--------,--------,---------------------------
+28391503,Villa Allende,"['17569', '28391503', '1980', 'NEGRETTE', 'JORGE DANIEL', 'R BALBIN', '417', '', 'EST', 'DNI', ' ', '3', '41', 'M', '59', 'IPEM RAUL DEL LLANO']"
+28391503,Unquillo,"['28391503', '1980', 'NEGRETTE', 'JORGE DANIEL', '', 'JUANA IBARBRU ESQ.RIC ROJ S/N', 'A', 'DNI-EA', '    3', '  40', '3785', 'M', ' ', '327', '0']"
+--------,--------,---------------------------
 20528421,Mendiolaza,"['2070', '20528421', 'CONTRERAS PATRICIA DEL CARMEN', 'PER MER', 'MZA 10 L', '17', '']"
 20528421,Villa Allende,"['6399', '20528421', '1969', 'CONTRERAS', 'PATRICIA DEL CARMEN', 'BIALET MASSE', '54', '', 'PER MER', 'DNI-EA', ' ', '3', '41', 'F', '22', 'INST. LUJAN ']"
+--------,--------,---------------------------
+20528516,Villa Allende,"['22382', '20528516', '1969', 'ROMERO', 'ORIETTA ALEJANDRA', 'LAS CORZUELAS', '144', '', 'DOCENTE', 'DNI-EA', ' ', '3', '41', 'F', '75', 'ESCUELA 17 DE AGOSTO']"
+20528516,Unquillo,"['20528516', '1969', 'ROMERO', 'ORIETTA ALEJANDRA', '', 'MZA 25 LOTE 17 0', 'A', 'DNI-EB', '    3', '  40', '3794', 'F', ' ', '127', '0']"
+--------,--------,---------------------------
+36257702,Rio Ceballos,"['2740', '072', '36257702', 'CALDERON', ' TAMARA PATRICIA', ' SAN MARTIN 7700']"
+36257702,Unquillo,"['36257702', '1991', 'CALDERON', 'TAMARA PATRICIA', '', 'SANTA FE 420', 'A', 'DNI-EB', '    3', '  40', '3761', 'F', ' ', '316', '0']"
+--------,--------,---------------------------
+20267031,Villa Allende,"['6476', '20267031', '1968', 'CORDOBA', 'CLAUDIA VIVIANA', 'SGTO CABRAL', '305', '', 'EST', '', ' ', '3', '41', 'F', '22', 'INST. LUJAN ']"
+20267031,Unquillo,"['20267031', '1968', 'CORDOBA', 'CLAUDIA VIVIANA', '', 'LOS ESPINILLOS 561', 'A', 'DNI-EA', '    3', '  40', '3765', 'F', ' ', '232', '0']"
+--------,--------,---------------------------
+38882829,Mendiolaza,"['2160', '38882829', 'CORREA LARA VICTORIA', 'EST SEC', 'CADIZ', '469', '']"
+38882829,Unquillo,"['38882829', '1995', 'CORREA', 'LARA VICTORIA', '', 'LOS ROBLES S/N', 'A', 'DNI-EB', '    3', '  40', '3765', 'F', ' ', '331', '0']"
+--------,--------,---------------------------
+38882830,Mendiolaza,"['2155', '38882830', 'CORREA GONZALO A', 'EST SEC', 'MENDIOLAZA GOLF-CADIZ', '469', '']"
+38882830,Unquillo,"['38882830', '1995', 'CORREA', 'GONZALO ANDRES', '', 'LOS ROBLES S/N', 'A', 'DNI-EB', '    3', '  40', '3765', 'M', ' ', '324', '0']"
+--------,--------,---------------------------
+32594504,Villa Allende,"['25849', '32594504', '1986', 'VEGA', 'NOELIA VANESA', 'J L DE CABRERA', '150', '', 'EST', 'DNI', ' ', '3', '41', 'F', '87', 'ESCUELA 17 DE AGOSTO']"
+32594504,Unquillo,"['32594504', '1986', 'VEGA', 'NOELIA VANESA', '', 'PARAGUAY 129', 'A', 'DNI-EA', '    3', '  40', '3800', 'F', ' ', '244', '0']"
 --------,--------,---------------------------
 7953043,Colonia Caroya,"['7953043', '1945', 'JAIME', 'JUAN RAMON', 'DON BOSCO', '1426', ' ', 'EMPL', 'DNI', ' ', '3', '29', 'M']"
 7953043,Hernando,"['4813 ', '7953043 ', '1945 ', 'JAIME, JUAN RAMON ', 'EMPL ', 'CHILE 594  -  DNI']"
@@ -61,17 +217,89 @@ DNI,Padron,Extras
 23684736,Mendiolaza,"['6841', '23684736', 'RIOS MARIANO ARIEL', 'EST', 'LOS CIGARRALES-CALLE 6', '114', '']"
 23684736,Rio Ceballos,"['14106', '032', '23684736', 'RIOS', ' MARIANO ARIEL', ' URQUIZA 418']"
 --------,--------,---------------------------
+26308038,Rio Ceballos,"['15244', '174', '26308038', 'SANTUCHO', ' MARICEL DEL VALLE', ' MARIO PLANTE S/N']"
+26308038,Unquillo,"['26308038', '1977', 'SANTUCHO', 'MARICEL DEL VALLE', '', 'JUANA DE IBARBURU 270', 'A', 'DNI-EA', '    3', '  40', '3796', 'F', ' ', '45', '0']"
+--------,--------,---------------------------
+30505613,Villa Allende,"['16709', '30505613', '1983', 'MONTES', 'PABLO SEBASTIAN', 'BALTIMORE', '336', '', 'EMPL', 'DNI-EA', ' ', '3', '41', 'M', '56', 'IPEM RAUL DEL LLANO']"
+30505613,Unquillo,"['30505613', '1983', 'MONTES', 'PABLO SEBASTIAN', '', 'PARAGUAY 129', 'A', 'DNI-EB', '    3', '  40', '3784', 'M', ' ', '18', '0']"
+--------,--------,---------------------------
+6389977,Corral de Bustos,"['5710', '6389977', '1950', 'NABISSI', 'ANGELA MARIA', 'CORDOBA', '1233', 'EST PRI', 'DNI-EA', 'F']"
+6389977,Unquillo,"['6389977', '1941', 'HERRERA', 'ROBERTO CALIXTO', '', 'ALTO ALEGRE-COLOMBIA S/N', 'A', 'DNI-EA', '    3', '  40', '3776', 'M', ' ', '91', '0']"
+--------,--------,---------------------------
 26313446,Mendiolaza,"['4142', '26313446', 'JUAREZ RICARDO OSCAR', 'EMPL', 'LONDRES', '540', '']"
 26313446,Villa Allende,"['12694', '26313446', '1977', 'JUAREZ', 'RICARDO OSCAR', 'LONDRES', '540', '', 'EMPL', 'DNID', ' ', '3', '41', 'M', '43', 'INST.NVO MILENIUM']"
 --------,--------,---------------------------
+11372194,Villa Allende,"['25598', '11372194', '1953', 'VAN ZANDWEGHE', 'JORGE EDUARDO', 'MITRE', '211', '', 'MILIT', 'DNI', ' ', '3', '41', 'M', '86', 'ESCUELA 17 DE AGOSTO']"
+11372194,Unquillo,"['11372194', '1953', 'VAN ZANDWEGHE', 'JORGE EDUARDO', '', 'LA HERRADURA 137', 'A', 'DNI-EA', '    3', '  40', '3800', 'M', ' ', '119', '0']"
+--------,--------,---------------------------
+6392700,Mendiolaza,"['4705', '06392700', 'MAGGI LUCIO RAFAEL', 'EST', 'B\xc2\xb0LOS CIGARRALES-CALLE 2', '373', '']"
+6392700,Unquillo,"['6392700', '1943', 'MAGGI', 'LUCIO RAFAEL', '', 'AV SAN MARTIN 2880', 'A', 'DNI-EA', '    3', '  40', '3780', 'M', ' ', '232', '0']"
+--------,--------,---------------------------
+29202158,Villa Allende,"['21630', '29202158', '1982', 'ROBLES', 'SOLEDAD CAROLINA', 'GUEMES', '145', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'F', '73', 'RVO.P.G.VERGONJEANNE']"
+29202158,Unquillo,"['29202158', '1982', 'ROBLES', 'SOLEDAD CAROLINA', '', 'SERGIO BOSSIO S/N', 'A', 'DNI-EB', '    3', '  40', '3793', 'F', ' ', '12', '0']"
+--------,--------,---------------------------
+18455645,Rio Ceballos,"['14932', '232', '18455645', 'SALDABO', ' ANTONIO MARCELO', ' PARAGUAY 214']"
+18455645,Unquillo,"['18455645', '1967', 'SALDA\xc3\x91O', 'ANTONIO MARCELO', '', 'CHARCAS/ANDRADE 15', 'A', 'DNI-EB', '    3', '  40', '3795', 'M', ' ', '34', '0']"
+--------,--------,---------------------------
+27108545,Mendiolaza,"['504', '27108545', 'ARGUELLO SILVIA NOEMI', 'NOCONST', 'CALLE 10', '43', '']"
+27108545,Unquillo,"['27108545', '1979', 'ARGUELLO', 'SILVIA NOEMI', '', 'CJAL N RAMOS 47', 'A', 'DNI-EB', '    3', '  40', '3756', 'F', ' ', '279', '0']"
+--------,--------,---------------------------
+38645752,Villa Allende,"['4253', '38645752', '1995', 'CABRERA', 'EDGARDO NICOLAS', 'B\xc2\xb0CENTRO-URQUIZA', '620', '', 'EST SEC', 'DNI-EA', ' ', '3', '41', 'M', '15', 'INST.PAULA ALBARRACIN DE SARMIENTO']"
+38645752,Unquillo,"['38645752', '1995', 'CABRERA', 'EDGARDO NICOLAS', '', 'LOS NOGALES 475', 'A', 'DNI-EB', '    3', '  40', '3761', 'M', ' ', '185', '0']"
+--------,--------,---------------------------
+14005394,Villa Allende,"['26074', '14005394', '1961', 'VERGARA', 'MONICA DELIA', 'DERQUI 1001', '1001', '', 'EST', 'DNI-EA', ' ', '3', '41', 'F', '87', 'ESCUELA 17 DE AGOSTO']"
+14005394,Unquillo,"['14005394', '1961', 'VERGARA', 'MONICA DELIA', '', 'LOMAS SANTA FE 861', 'A', 'DNI-EB', '    3', '  40', '3801', 'F', ' ', '86', '0']"
+--------,--------,---------------------------
+12695557,Villa Allende,"['19209', '12695557', '1957', 'PAZ', 'JORGE ANTONIO', 'B\xc2\xb0PARQUE-CALLE 7', '0', '', 'TRACTO', 'DNID', ' ', '3', '41', 'M', '65', 'RVO.P.G.VERGONJEANNE']"
+12695557,Unquillo,"['12695557', '1957', 'PAZ', 'JORGE ANTONIO', '', 'COSTANERA 30', 'A', 'DNI-EB', '    3', '  40', '3788', 'M', ' ', '250', '0']"
+--------,--------,---------------------------
+30259965,Rio Ceballos,"['11558', '326', '30259965', 'NAVARRO', ' RICARDO EUSEBIO', ' ERNESTO DELLA TORRE 84']"
+30259965,Unquillo,"['30259965', '1983', 'NAVARRO', 'RICARDO EUSEBIO', '', 'LOS CEIBOS 920', 'A', 'DNI-EA', '    3', '  40', '3785', 'M', ' ', '274', '0']"
+--------,--------,---------------------------
+28428124,Villa Allende,"['613', '28428124', '1980', 'ALASIA', 'JAVIER EDUARDO', 'PTO ARGENTINO', '1423', '', 'EST', 'DNI', ' ', '3', '41', 'M', '3', 'GRAL SAN MARTIN']"
+28428124,Unquillo,"['28428124', '1980', 'ALASIA', 'JAVIER EDUARDO', '', 'B\xc2\xb0ALTO ALEGRE-CABANA 46', 'A', 'DNI-EA', '    3', '  40', '3755', 'M', ' ', '43', '0']"
+--------,--------,---------------------------
+31838199,Villa Allende,"['22879', '31838199', '1986', 'SAIRES', 'CLAUDIA DE LOURDES', 'BARRANCA YACO', '255', '', 'EST SEC', 'DNI-EA', ' ', '3', '41', 'F', '77', 'ESCUELA 17 DE AGOSTO']"
+31838199,Unquillo,"['31838199', '1986', 'SAIRES', 'CLAUDIA DE LOURDES', '', 'GUATEMALA 64', 'A', 'DNI-EB', '    3', '  40', '3795', 'F', ' ', '10', '0']"
+--------,--------,---------------------------
+26627486,Rio Ceballos,"['4296', '198', '26627486', 'CORNEJO', ' SANTIAGO', ' MITRE 65']"
+26627486,Unquillo,"['26627486', '1978', 'CORNEJO', 'SANTIAGO', '', 'ROSARIO VERA PE\xc3\x91ALOZA 34', 'A', 'DNI-EB', '    3', '  40', '3765', 'M', ' ', '289', '0']"
+--------,--------,---------------------------
+28432859,Villa Allende,"['8268', '28432859', '1981', 'ESPA\xc3\x91ON', 'GERARDO MARIANO JOSE', 'A AUZZANI', '2278', '', 'EST', 'DNID', ' ', '3', '41', 'M', '28', 'INST. LUJAN ']"
+28432859,Unquillo,"['28432859', '1981', 'ESPA\xc3\x91ON', 'GERARDO MARIANO JOSE', '', 'DOMINGO PESASI 463', 'A', 'DNI-EA', '    3', '  40', '3769', 'M', ' ', '6', '0']"
+--------,--------,---------------------------
+30533949,Rio Ceballos,"['9117', '123', '30533949', 'LOZA', ' GUILLERMO SEBASTIAN', ' AV SAN MARTIN 161']"
+30533949,Unquillo,"['30533949', '1984', 'LOZA', 'GUILLERMO SEBASTIAN', '', 'AV SAN MARTIN 3617', 'A', 'DNI-EB', '    3', '  40', '3779', 'M', ' ', '239', '0']"
+--------,--------,---------------------------
+34990765,Villa Allende,"['23424', '34990765', '1990', 'SANTILLAN', 'BRENDA FABIANA', 'MENDOZA', '2314', '', 'SIN PRO', 'DNI-EA', ' ', '3', '41', 'F', '79', 'ESCUELA 17 DE AGOSTO']"
+34990765,Unquillo,"['34990765', '1990', 'SANTILLAN', 'BRENDA FABIANA', '', 'ALTE BROWN 681', 'A', 'DNI-EB', '    3', '  40', '3796', 'F', ' ', '17', '0']"
+--------,--------,---------------------------
 32373198,Mendiolaza,"['3248', '32373198', 'GARAY PAEZ LEANDRO DAMIAN', 'EST', 'DORREGO ESQ BOLONIA', '', '']"
 32373198,Rio Ceballos,"['6516', '006', '32373198', 'GARAY PAEZ', ' LEANDRO DAMIAN', ' CONSEJAL MARIO PLANTE 86']"
+--------,--------,---------------------------
+27917220,Villa Allende,"['18766', '27917220', '1980', 'PAEZ', 'RAUL SEBASTIAN', 'RAMIREZ DE VELAZCO', '686', '', 'EST TER', 'DNI-EA', ' ', '3', '41', 'M', '63', 'RVO.P.G.VERGONJEANNE']"
+27917220,Unquillo,"['27917220', '1980', 'PAEZ', 'RAUL SEBASTIAN', '', 'ADELA SOBRE PJE PUBLICO S/N', 'A', 'DNI-EB', '    3', '  40', '3788', 'M', ' ', '43', '0']"
+--------,--------,---------------------------
+26820011,Villa Allende,"['7052', '26820011', '1978', 'CUFRE', 'CAROLINA ALEJANDRA', 'C PELLEGRINI', '575', '', 'EST', 'DNI', ' ', '3', '41', 'F', '24', 'INST. LUJAN ']"
+26820011,Unquillo,"['26820011', '1978', 'CUFRE', 'CAROLINA ALEJANDRA', '', 'C PELLEGRINI 575', 'A', 'DNI-EA', '    3', '  40', '3766', 'F', ' ', '270', '0']"
+--------,--------,---------------------------
+32115516,Mendiolaza,"['7887', '32115516', 'SOSA WALTER W', 'SIN PRO', 'B\xc2\xb0L CIGARRALES-CALLE SEIS', '440', '']"
+32115516,Unquillo,"['32115516', '1986', 'SOSA', 'WALTER WILFREDO', '', 'PARANA S/N', 'A', 'DNI-EA', '    3', '  40', '3797', 'M', ' ', '205', '0']"
 --------,--------,---------------------------
 35525527,Mendiolaza,"['3181', '35525527', 'GALAN AUGUSTO ALEJANDRO', 'SECCTO', 'CALLE 8', '220', '']"
 35525527,Rio Ceballos,"['6412', '206', '35525527', 'GALAN', ' AUGUSTO ALEJANDRO', ' JUAN BAUTISTA BUSTOS 161']"
 --------,--------,---------------------------
 5642486,Villa Allende,"['24740', '5642486', '1947', 'TELLO SAVID', 'ZULMA DEL VALLE', 'MAIPU', '42', '', 'PRO MUS', 'DNI', ' ', '3', '41', 'F', '83', 'ESCUELA 17 DE AGOSTO']"
 5642486,Rio Ceballos,"['16016', '200', '05642486', 'TELLO SAVID', ' ZULMA DEL VALLE', ' AV S MARTIN 4366']"
+--------,--------,---------------------------
+25041398,Villa Allende,"['23874', '25041398', '1976', 'SIENRRA', 'LUCIANA BELEN', 'FILADELFIA', '716', '', 'UNIV', 'DNI-EB', ' ', '3', '41', 'F', '80', 'ESCUELA 17 DE AGOSTO']"
+25041398,Unquillo,"['25041398', '1976', 'SIENRRA', 'LUCIANA BELEN', '', 'CABANA 90', 'A', 'DNI-EC', '    3', '  40', '3796', 'F', ' ', '270', '0']"
+--------,--------,---------------------------
+4594365,Villa Allende,"['10200', '4594365', '1945', 'GARCIA', 'MARIA ANGELA DEL VALLE', 'DEL NIAGARA', '635', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'F', '34', 'INST. SAN JOSE']"
+4594365,Unquillo,"['4594365', '1945', 'GARCIA', 'MARIA ANGELA DEL VALLE', '', 'ALMIRANTE BROWN 191', 'A', 'DNI-EB', '    3', '  40', '3772', 'F', ' ', '99', '0']"
+--------,--------,---------------------------
+23993723,Rio Ceballos,"['14847', '149', '23993723', 'SAGLIETTI', ' JOSE FERNANDO', ' R J CARCANO 83']"
+23993723,Unquillo,"['23993723', '1976', 'SAGLIETTI', 'JOSE FERNANDO', '', '5 DE OCTUBRE/C CONTRERAS', 'A', 'DNI-EA', '    3', '  40', '3794', 'M', ' ', '341', '0']"
 --------,--------,---------------------------
 16654485,Hernando,"['3452 ', '16654485 ', '', 'FERRERO, MARI ISABEL ', 'EST ', 'CHILE 995  -  DNID']"
 16654485,Hernando,"['7213 ', '16654485 ', '1964 ', 'PLAZA, OSCAR ELADIO ', 'ELECTRI ', 'BROWN 377  -  DNID']"
@@ -80,20 +308,80 @@ DNI,Padron,Extras
 28455075,Villa Allende,"['15511', '28455075', '1971', 'MARTINEZ', 'PABLO EDUARDO', 'LAVALLE', '107', '', 'EST', 'DNIT', ' ', '3', '41', 'M', '52', 'IPEM RAUL DEL LLANO']"
 28455075,Rio Ceballos,"['10025', '283', '28455075', 'MARTINEZ', ' PABLO EDUARDO', ' AV.SAN MARTIN 4086']"
 --------,--------,---------------------------
+22796452,Villa Allende,"['21132', '22796452', '1972', 'REGALADO', 'ANALIA VERONICA', 'CHACABUCO', '182', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'F', '71', 'RVO.P.G.VERGONJEANNE']"
+22796452,Unquillo,"['22796452', '1972', 'REGALADO', 'ANALIA VERONICA', '', 'SGTO CABRAL 156', 'A', 'DNI-EB', '    3', '  40', '3792', 'F', ' ', '22', '0']"
+--------,--------,---------------------------
+8276171,Mendiolaza,"['4756', '08276171', 'MALDONADO HECTOR R', 'NOCONST', 'CIGARRALES CALLE 6', '78', '']"
+8276171,Unquillo,"['8276171', '1950', 'MALDONADO', 'HECTOR RICARDO', '', 'AV SAN MARTIN 3462', 'A', 'DNI-EC', '    3', '  40', '3780', 'M', ' ', '294', '0']"
+--------,--------,---------------------------
+12995657,Villa Allende,"['18307', '12995657', '1956', 'ORO', 'LILIANA ELVIRA', 'ESTEBAN ECHEVERRIA', '500', '', 'EST SEC', 'DNI-EB', ' ', '3', '41', 'F', '62', 'RVO.P.G.VERGONJEANNE']"
+12995657,Unquillo,"['12995657', '1956', 'ORO', 'LILIANA ELVIRA', '', 'ESTEBAN ECHEVERRIA 500', 'A', 'DNI-EC', '    3', '  40', '3787', 'F', ' ', '174', '0']"
+--------,--------,---------------------------
+33967273,Villa Allende,"['12250', '33967273', '1989', 'HERRERA', 'JESICA JOHANA', 'J L DE CABRERA', '462', '', 'EST', 'DNI', ' ', '3', '41', 'F', '41', 'INST. SAN JOSE']"
+33967273,Unquillo,"['33967273', '1989', 'HERRERA', 'JESICA JOHANA', '', 'JACARANDA 161', 'A', 'DNI-EA', '    3', '  40', '3776', 'F', ' ', '43', '0']"
+--------,--------,---------------------------
+31345902,Villa Allende,"['19608', '31345902', '1985', 'PEREYRA', 'CLAUDIO ALEJANDRO', 'NUEVA GUINEA', '632', '', 'EMPL', 'DNI-EA', ' ', '3', '41', 'M', '66', 'RVO.P.G.VERGONJEANNE']"
+31345902,Unquillo,"['31345902', '1985', 'PEREYRA', 'CLAUDIO ALEJANDRO', '', 'ALVEAR 63', 'A', 'DNI-EB', '    3', '  40', '3789', 'M', ' ', '94', '0']"
+--------,--------,---------------------------
+20074516,Rio Ceballos,"['4398', '298', '20074516', 'COSTAMAGNA', ' JORGE CEFERINO', ' CAYETANO RODRIGUEZ 771']"
+20074516,Unquillo,"['20074516', '1968', 'COSTAMAGNA', 'JORGE CEFERINO', '', 'ALTE BROWN 561', 'A', 'DNI-EC', '    3', '  40', '3766', 'M', ' ', '93', '0']"
+--------,--------,---------------------------
+20075014,Villa Allende,"['24896', '20075014', '1968', 'TOLEDO', 'JUAN OSVALDO', 'CHACABUCO', '201', '', 'EMPL', 'DNID', ' ', '3', '41', 'M', '83', 'ESCUELA 17 DE AGOSTO']"
+20075014,Unquillo,"['20075014', '1968', 'TOLEDO', 'JUAN OSVALDO', '', 'SARMIENTO 1500', 'A', 'DNI-EA', '    3', '  40', '3799', 'M', ' ', '8', '0']"
+--------,--------,---------------------------
+29512636,Villa Allende,"['8339', '29512636', '1982', 'ESTEBAN BRUTTI', 'IVANA MARIEL', 'SAN ALFONSO', '1139', '', 'TERCCTO', 'DNI-EA', ' ', '3', '41', 'F', '28', 'INST. LUJAN ']"
+29512636,Unquillo,"['29512636', '1982', 'ESTEBAN BRUTTI', 'IVANA MARIEL', '', 'SAN ALFONSO 81', 'A', 'DNI-EB', '    3', '  40', '3769', 'F', ' ', '29', '0']"
+--------,--------,---------------------------
+14308854,Villa Allende,"['2744', '14308854', '1961', 'BASMADJIAN', 'ELENA MABEL', 'ROCA', '52', '', 'EST', 'DNI-EA', ' ', '3', '41', 'F', '10', 'GRAL SAN MARTIN']"
+14308854,Unquillo,"['14308854', '1961', 'BASMADJIAN', 'ELENA MABEL', '', 'AV SAN MARTIN 2157', 'A', 'DNI-EB', '    3', '  40', '3758', 'F', ' ', '229', '0']"
+--------,--------,---------------------------
+10377514,Mendiolaza,"['3107', '10377514', 'FRANCO BLANCA LORETO', 'EST', 'AV SAN JOSE CALASANZ', '1328', '']"
+10377514,Unquillo,"['10377514', '1952', 'FRANCO', 'BLANCA LORETO', '', 'FRAGATA LIBERTAD S/N C 8', 'A', 'DNI-EB', '    3', '  40', '3771', 'F', ' ', '121', '0']"
+--------,--------,---------------------------
+10378281,Mendiolaza,"['1757', '10378281', 'CASTRO CABRERA JUAN F', 'EST', 'V DEL SOL-LOS CARANCHOS', '292', '']"
+10378281,Unquillo,"['10378281', '1950', 'CASTRO CABRERA', 'JUAN FRANCISCO', '', 'MARTIN FIERRO 530', 'A', 'DNI-EA', '    3', '  40', '3763', 'M', ' ', '251', '0']"
+--------,--------,---------------------------
 31612014,Villa Allende,"['15780', '31612014', '1985', 'MAZZA', 'LUCAS EMANUEL', 'ESPIRITU SANTO', '1527', '', 'EST SEC', 'DNID', ' ', '3', '41', 'M', '53', 'IPEM RAUL DEL LLANO']"
 31612014,Rio Ceballos,"['10212', '104', '31612014', 'MAZZA', ' LUCAS EMANUEL', ' ESTEBAN ECHEVERRIA 4912']"
+--------,--------,---------------------------
+20340084,Rio Ceballos,"['7379', '121', '20340084', 'GONZALEZ', ' RODOLFO LUIS', ' BI SAN MIGUEL']"
+20340084,Unquillo,"['20340084', '1968', 'GONZALEZ', 'RODOLFO LUIS', '', 'B\xc2\xb0LOS VASCOS-RANQUELES 259', 'A', 'DNI-EA', '    3', '  40', '3774', 'M', ' ', '173', '0']"
+--------,--------,---------------------------
+17720409,Rio Ceballos,"['3305', '259', '17720409', 'CASSANI', ' ANDREA SUSANA', ' S MARTIN 2668']"
+17720409,Unquillo,"['17720409', '1965', 'CASSANI', 'ANDREA SUSANA', '', 'AV S MARTIN 2668', 'A', 'DNI-EB', '    3', '  40', '3763', 'F', ' ', '143', '0']"
+--------,--------,---------------------------
+30566953,Villa Allende,"['15518', '30566953', '1984', 'MARTINEZ', 'RAFAEL NELSON NICOLAS', 'GILBERT', '1618', '', 'EMPL', 'DNI-EA', ' ', '3', '41', 'M', '52', 'IPEM RAUL DEL LLANO']"
+30566953,Unquillo,"['30566953', '1984', 'MARTINEZ', 'RAFAEL NELSON NICOLAS', '', 'AV SAN MARTIN 2891', 'A', 'DNI-EB', '    3', '  40', '3782', 'M', ' ', '68', '0']"
 --------,--------,---------------------------
 29256288,Villa Allende,"['2489', '29256288', '1982', 'BARGIONI', 'CARLOS RODOLFO', 'SAN FRANCISCO DE ASIS', '1556', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'M', '9', 'GRAL SAN MARTIN']"
 29256288,Rio Ceballos,"['1492', '244', '29256288', 'BARGIONI', ' CARLOS RODOLFO', ' B\xc2\xb0A SE LUJAN-P DE MELO 288']"
 --------,--------,---------------------------
+27683493,Mendiolaza,"['6453', '27683493', 'PLA REBECA ANALIA', 'EST', 'AV TIBURCIO TISSERA S /N', '', '']"
+27683493,Unquillo,"['27683493', '1979', 'PLA', 'REBECA ANALIA', '', 'RUIZ DE LOS LLANOS 275', 'A', 'DNI-EA', '    3', '  40', '3790', 'F', ' ', '124', '0']"
+--------,--------,---------------------------
+14839112,Villa Allende,"['25386', '14839112', '1962', 'URAN', 'WALTER OSVALDO', 'PJE DEL CARMEN', '1220', '', 'EST', 'DNIC', ' ', '3', '41', 'M', '85', 'ESCUELA 17 DE AGOSTO']"
+14839112,Unquillo,"['14839112', '1962', 'URAN', 'WALTER OSVALDO', '', '20 DE JUNIO 130', 'A', 'DNI-EA', '    3', '  40', '3800', 'M', ' ', '19', '0']"
+--------,--------,---------------------------
+29832466,Rio Ceballos,"['10248', '138', '29832466', 'MEDINA', ' ANA LAURA', ' COLON 454']"
+29832466,Unquillo,"['29832466', '1983', 'MEDINA', 'ANA LAURA', '', 'JOSE INGENIEROS 617', 'A', 'DNI-EA', '    3', '  40', '3782', 'F', ' ', '227', '0']"
+--------,--------,---------------------------
+32406661,Villa Allende,"['8576', '32406661', '1986', 'FARIAS', 'NOELIA', 'EL OMBU', '838', '', 'EST SEC', 'DNI-EA', ' ', '3', '41', 'F', '29', 'INST. LUJAN ']"
+32406661,Unquillo,"['32406661', '1986', 'FARIAS', 'NOELIA', '', 'LOS MARITIMOS 117', 'A', 'DNI-EB', '    3', '  40', '3769', 'F', ' ', '252', '0']"
+--------,--------,---------------------------
 29605760,Mendiolaza,"['4152', '29605760', 'JULIA MARIA GUADALUPE', 'SIN PRO', 'LOS TILOS', '1520', '']"
 29605760,Villa Allende,"['12722', '29605760', '1982', 'JULIA', 'MARIA GUADALUPE', 'PJE VERGOGCANE', '83', '', 'SIN PRO', 'DNID', ' ', '3', '41', 'F', '43', 'INST.NVO MILENIUM']"
+--------,--------,---------------------------
+30310399,Villa Allende,"['5871', '30310399', '1983', 'CERIONI ELORZA', 'CAROLINA', 'PABLO CABRERA', '473', '', 'EST UNI', 'DNI-EA', ' ', '3', '41', 'F', '20', 'INST. LUJAN ']"
+30310399,Unquillo,"['30310399', '1983', 'CERIONI ELORZA', 'CAROLINA', '', 'ALTE BROWN 464', 'A', 'DNI-EB', '    3', '  40', '3764', 'F', ' ', '224', '0']"
 --------,--------,---------------------------
 4702543,Villa Allende,"['11600', '4702543', '1948', 'GRINOBALT', 'JORGE ALBERTO', 'NUEVA ZELANDA', '735', '', 'ARTES', 'DNI-EB', ' ', '3', '41', 'M', '39', 'INST. SAN JOSE']"
 4702543,Rio Ceballos,"['7525', '263', '04702543', 'GRINOBALT', ' JORGE ALBERTO', ' REMEDIOS DE ESCALADA 1495']"
 --------,--------,---------------------------
 6493909,Villa Allende,"['5570', '6493909', '1951', 'CASTRO', 'MIRTA SUSANA', 'DUARTE QUIROS', '160', '', 'A CASA', 'DNI', ' ', '3', '41', 'F', '19', 'INST. LUJAN ']"
 6493909,Rio Ceballos,"['3427', '077', '06493909', 'CASTRO', ' MIRTA SUSANA', ' BELGRANO 455']"
+--------,--------,---------------------------
+20876487,Mendiolaza,"['4627', '20876487', 'LUJAN CLARA FABIANA', 'A CASA', 'CALLE 10 B\xc2\xb0LOS CIGARRALES', '27', '']"
+20876487,Unquillo,"['20876487', '1969', 'LUJAN', 'CLARA FABIANA', '', 'CABRAL 96', 'A', 'DNI-EA', '    3', '  40', '3780', 'F', ' ', '5', '0']"
 --------,--------,---------------------------
 31625838,Hernando,"['3933 ', '31625838 ', '1985 ', 'GARCIA HORACIO ELIAS ', 'EST ', 'COLON 266, DNI']"
 31625838,Hernando,"['3949 ', '31625838 ', '1985 ', 'GARCIA, HORACIO ELIAS ', 'EST ', 'COLON 266-  DNI']"
@@ -103,17 +391,80 @@ DNI,Padron,Extras
 31625851,Hernando,"['5444 ', '31625851 ', '1985 ', 'MACAGNO, PABLO JOSE ', 'EST ', 'BELGRANO SUD 155-DNI']"
 31625851,Hernando,"['5445 ', '31625851 ', '1985 ', 'MACAGNO, PABLO JOSE ', 'EST ', 'SAN VICENTE-SAAVEDRA 535 - DNI-EA']"
 --------,--------,---------------------------
+25858828,Villa Allende,"['25124', '25858828', '1977', 'TORRES', 'SEBASTIAN', 'RICARDO BALBIN', '701', '', 'EST', 'DNID', ' ', '3', '41', 'M', '84', 'ESCUELA 17 DE AGOSTO']"
+25858828,Unquillo,"['25858828', '1977', 'TORRES', 'SEBASTIAN', '', 'GUSTAVO CENTENO 780', 'A', 'DNI-EB', '    3', '  40', '3799', 'M', ' ', '217', '0']"
+--------,--------,---------------------------
 27172796,Villa Allende,"['17098', '27172796', '1979', 'MOTTA', 'GERMAN GUSTAVO', 'EL OMBU', '1002', '', 'EMPL', 'DNI', ' ', '3', '41', 'M', '57', 'IPEM RAUL DEL LLANO']"
 27172796,Rio Ceballos,"['11198', '338', '27172796', 'MOTTA', ' GERMAN GUSTAVO', ' B\xc2\xb0SAN JOSE-RIO BERMEJO 257']"
+--------,--------,---------------------------
+6494946,Villa Allende,"['1086', '6494946', '1951', 'ALONSO VILLAGRA', 'SILVIA VICTORIA', 'BUENOS AIRES', '475', '', 'UNIV', 'DNI-EB', ' ', '3', '41', 'F', '4', 'GRAL SAN MARTIN']"
+6494946,Unquillo,"['6494946', '1936', 'CARIDDI', 'DOMINGO JAVIER', '', 'B\xc2\xb0L ENSENADAS - J AZURDUY S/N', 'A', 'DNI-EB', '    3', '  40', '3762', 'M', ' ', '232', '0']"
 --------,--------,---------------------------
 23513076,Mendiolaza,"['5716', '23513076', 'OCANTO HECTOR G', 'NOCONST', 'DEL TALAR-LAVANDA M291L 7', '399', '']"
 23513076,Villa Allende,"['17883', '23513076', '1973', 'OCANTO', 'HECTOR GUILLERMO', 'NUEVA GRANADA', '268', '', 'EST', 'DNI-EA', ' ', '3', '41', 'M', '60', 'IPEM RAUL DEL LLANO']"
 --------,--------,---------------------------
+27174454,Rio Ceballos,"['12842', '188', '27174454', 'PEREYRA', ' ANA DEL CARMEN', ' DR J BREGANTE 336']"
+27174454,Unquillo,"['27174454', '1979', 'PEREYRA', 'ANA DEL CARMEN', '', 'CHARCAS ESQ ANDRADE 13', 'A', 'DNI-EA', '    3', '  40', '3789', 'F', ' ', '90', '0']"
+--------,--------,---------------------------
+21410413,Villa Allende,"['3096', '21410413', '1970', 'BERISVIL', 'GABRIEL JUAN', 'CERRO LANIN', '828', '', 'EST', 'DNID', ' ', '3', '41', 'M', '11', 'INST.PAULA ALBARRACIN DE SARMIENTO']"
+21410413,Unquillo,"['21410413', '1970', 'BERISVIL', 'GABRIEL JUAN', '', 'PJE ROSARIO 122', 'A', 'DNI-EA', '    3', '  40', '3759', 'M', ' ', '130', '0']"
+--------,--------,---------------------------
+30847750,Rio Ceballos,"['14248', '170', '30847750', 'ROBLEDO', ' ROMINA PAOLA', ' MARIANO MORENO 402']"
+30847750,Unquillo,"['30847750', '1984', 'ROBLEDO', 'ROMINA PAOLA', '', 'ESTEBAN AGUERO S/N', 'A', 'DNI-EA', '    3', '  40', '3793', 'F', ' ', '4', '0']"
+--------,--------,---------------------------
+25080619,Villa Allende,"['16053', '25080619', '1975', 'MERLO', 'GISELA', 'CERRO CATEDRAL', '851', '', 'EMPL', 'DNI-EA', ' ', '3', '41', 'F', '54', 'IPEM RAUL DEL LLANO']"
+25080619,Unquillo,"['25080619', '1975', 'MERLO', 'GISELA', '', 'AV GRAL.BELGRANO 1483', 'A', 'DNI-EB', '    3', '  40', '3783', 'F', ' ', '33', '0']"
+--------,--------,---------------------------
+16431084,Villa Allende,"['19288', '16431084', '1963', 'PEDRAZA', 'CARLOS ALBERTO', 'SAN SEBASTIAN', '750', '', 'PEON', 'DNID', ' ', '3', '41', 'M', '65', 'RVO.P.G.VERGONJEANNE']"
+16431084,Unquillo,"['16431084', '1963', 'PEDRAZA', 'CARLOS ALBERTO', '', 'CNO SAN JOSE KM 2 1/2 S/N', 'A', 'DNI-EA', '    3', '  40', '3788', 'M', ' ', '277', '0']"
+--------,--------,---------------------------
+22792698,Mendiolaza,"['758', '22792698', 'BARRERA DIEGO FERNANDO', 'EST', 'SAN JOSE DE CALAZANS', '2618', '']"
+22792698,Unquillo,"['22792698', '1972', 'BARRERA', 'DIEGO FERNANDO', '', 'SARGENTO CABRAL 96', 'A', 'DNI-EA', '    3', '  40', '3758', 'M', ' ', '76', '0']"
+--------,--------,---------------------------
+11976565,Villa Allende,"['1258', '11976565', '1956', 'ALVAREZ', 'MARIA ANTONIA', 'LOS ALAMOS', '629', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'F', '5', 'GRAL SAN MARTIN']"
+11976565,Unquillo,"['11976565', '1956', 'ALVAREZ', 'MARIA ANTONIA', '', 'LOS ALAMOS 629', 'A', 'DNI-EB', '    3', '  40', '3755', 'F', ' ', '313', '0']"
+--------,--------,---------------------------
+37928822,Rio Ceballos,"['1980', '058', '37928822', 'BIGA', ' ROMINA', ' LOZA RAMON J CARCANO 83']"
+37928822,Unquillo,"['37928822', '1993', 'BIGA', 'ROMINA', '', 'SANTA FE 420', 'A', 'DNI-EB', '    3', '  40', '3759', 'F', ' ', '275', '0']"
+--------,--------,---------------------------
+30328617,Villa Allende,"['842', '30328617', '1983', 'ALIJA ASTORGA', 'NICOLAS JOSE', 'DUPLEX 4-AV ARGENTINA', '1570', '', 'COMERCI', 'DNI-EB', ' ', '3', '41', 'M', '3', 'GRAL SAN MARTIN']"
+30328617,Unquillo,"['30328617', '1983', 'ALIJA ASTORGA', 'NICOLAS JOSE', '', 'MZA 80-LT 12 S/N', 'A', 'DNI-EC', '    3', '  40', '3755', 'M', ' ', '141', '0']"
+--------,--------,---------------------------
+24303117,Mendiolaza,"['2334', '24303117', 'DALPOGGETTO MARIA R', 'EST', 'CALLE OCHO-LOS CIGARRALES', '279', '']"
+24303117,Unquillo,"['24303117', '1975', 'DALPOGGETTO', 'MARIA ROSA', '', 'LOS ALAMOS 241', 'A', 'DNI-EA', '    3', '  40', '3767', 'F', ' ', '33', '0']"
+--------,--------,---------------------------
+24303173,Villa Allende,"['3141', '24303173', '1976', 'BERROTARAN', 'DIEGO FACUNDO', 'DEL CARMEN', '587', '', 'EST SEC', 'DNI-EA', ' ', '3', '41', 'M', '11', 'INST.PAULA ALBARRACIN DE SARMIENTO']"
+24303173,Unquillo,"['24303173', '1976', 'BERROTARAN', 'DIEGO FACUNDO', '', 'VA DIAZ-QUIRINO CRISTIANI 77', 'A', 'DNI-EB', '    3', '  40', '3759', 'M', ' ', '167', '0']"
+--------,--------,---------------------------
+24303476,Rio Ceballos,"['4', '004', '24303476', 'ABACCA', ' LAURA INES', ' OSCAR FERREYRA 99']"
+24303476,Unquillo,"['24303476', '1977', 'ABACCA', 'LAURA INES', '', 'PJE CAVIRIA GERMAINE 56', 'A', 'DNI-EB', '    3', '  40', '3754', 'F', ' ', '1', '0']"
+--------,--------,---------------------------
+31838099,Villa Allende,"['1278', '31838099', '1985', 'ALVAREZ', 'NOELIA PAMELA', 'NEUQUEN', '1330', '', 'EST', 'DNI-EA', ' ', '3', '41', 'F', '5', 'GRAL SAN MARTIN']"
+31838099,Unquillo,"['31838099', '1985', 'ALVAREZ', 'NOELIA PAMELA', '', 'SARMIENTO 381', 'A', 'DNI-EB', '    3', '  40', '3755', 'F', ' ', '333', '0']"
+--------,--------,---------------------------
 35577449,Villa Allende,"['26765', '35577449', '1990', 'YOSBERE', 'LEANDRO ARIEL', 'GORRITTI', '116', '', 'EST UNI', 'DNI-EA', ' ', '3', '41', 'M', '90', 'ESCUELA 17 DE AGOSTO']"
 35577449,Villa Allende,"['26766', '35577449', '1990', 'YOSBERE', 'LEANDRO ARIEL', 'GORRITTI', '116', '', 'EST UNI', 'DNI-EA', ' ', '3', '41', 'M', '90', 'ESCUELA 17 DE AGOSTO']"
 --------,--------,---------------------------
+35577953,Mendiolaza,"['1215', '35577953', 'BROCHERO CINTIA YANINA', 'EST', 'AV T TISSERA B\xc2\xb0EL TALAR', '597', '']"
+35577953,Unquillo,"['35577953', '1991', 'BROCHERO', 'CINTIA YANINA', '', 'FATIMA 23', 'A', 'DNI-EA', '    3', '  40', '3760', 'F', ' ', '257', '0']"
+--------,--------,---------------------------
+29549409,Rio Ceballos,"['897', '269', '29549409', 'ARCE', ' DIEGO ALEJANDRO', ' J B ALBERDI 762']"
+29549409,Unquillo,"['29549409', '1982', 'ARCE', 'DIEGO ALEJANDRO', '', 'EL CEIBO 333', 'A', 'DNI-EA', '    3', '  40', '3756', 'M', ' ', '200', '0']"
+--------,--------,---------------------------
 29549422,Villa Allende,"['24948', '29549422', '1982', 'TOLOSA', 'RUBEN DARIO', 'CERRO CATEDRAL', '842', '', 'EST', 'DNI', ' ', '3', '41', 'M', '84', 'ESCUELA 17 DE AGOSTO']"
 29549422,Rio Ceballos,"['16127', '307', '29549422', 'TOLOSA', ' RUBEN DARIO', ' CASTELLI S/N']"
+--------,--------,---------------------------
+29549474,Rio Ceballos,"['15855', '045', '29549474', 'SUARES', ' LORENA DEL VALLE', ' ATACAMA 378']"
+29549474,Unquillo,"['29549474', '1982', 'SUARES', 'LORENA DEL VALLE', '', 'ATACAMA 378', 'A', 'DNI-EB', '    3', '  40', '3797', 'F', ' ', '299', '0']"
+--------,--------,---------------------------
+25880726,Villa Allende,"['23390', '25880726', '1977', 'SANTANDER', 'DANIEL EDUARDO', 'J L DE CABRERA', '940', '', 'EST', 'DNI-EA', ' ', '3', '41', 'M', '78', 'ESCUELA 17 DE AGOSTO']"
+25880726,Unquillo,"['25880726', '1977', 'SANTANDER', 'DANIEL EDUARDO', '', 'ECHEVERRIA 537', 'A', 'DNI-EA', '    3', '  40', '3795', 'M', ' ', '337', '0']"
+--------,--------,---------------------------
+7269564,Rio Ceballos,"['11042', '186', '07269564', 'MORENO', ' HUGO FERNANDO', ' BICENTRO-SAN MARTIN 4907 2!']"
+7269564,Unquillo,"['7269564', '1931', 'MORENO', 'HUGO FERNANDO', '', '25 DE MAYO 250', 'A', 'DNI-EB', '    3', '  40', '3784', 'M', ' ', '149', '0']"
+--------,--------,---------------------------
+7983913,Villa Allende,"['8704', '7983913', '1945', 'FERBER', 'JORGE', 'VELEZ SARSFIELD', '17', '', 'CAMION', 'DNID', ' ', '3', '41', 'M', '30', 'INST. LUJAN ']"
+7983913,Unquillo,"['7983913', '1945', 'FERBER', 'JORGE', '', 'VELEZ SARSFIELD 17', 'A', 'DNI-EA', '    3', '  40', '3769', 'M', ' ', '330', '0']"
 --------,--------,---------------------------
 20379697,Villa Allende,"['8373', '20379697', '1968', 'ETCHART', 'RAUL NORBERTO', 'RIO DE JANEIRO', '572', '', 'EST', 'DNI-EA', ' ', '3', '41', 'M', '28', 'INST. LUJAN ']"
 20379697,Rio Ceballos,"['5541', '023', '20379697', 'ETCHART', ' RAUL NORBERTO', ' PJE PUERTO ARGETINO 52']"
@@ -122,11 +473,29 @@ DNI,Padron,Extras
 23525944,Hernando,"['8237 ', '23525944 ', '1973 ', 'SANCHEZ, ANABELLA ', 'SECCTO ', 'FIGUEROA ALCORTA 287 - DNI-EA']"
 23525944,Hernando,"['8312 ', '23525944 ', '', 'SANCHEZ,ANABELLA ', 'EST ', 'AV. SABATTINI 145 - DNI ']"
 --------,--------,---------------------------
+24574973,Rio Ceballos,"['5587', '067', '24574973', 'FACCHINETTI', ' LORENA BEATRIZ', ' R DE ESCALADA 547']"
+24574973,Unquillo,"['24574973', '1975', 'FACCHINETTI', 'LORENA BEATRIZ', '', 'GUAICURUES 138', 'A', 'DNI-EA', '    3', '  40', '3769', 'F', ' ', '133', '0']"
+--------,--------,---------------------------
 26672627,Villa Allende,"['12626', '26672627', '1978', 'JOHNSON OVIEDO', 'DOLORES', 'NICARAGUA', '475', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'F', '43', 'INST.NVO MILENIUM']"
 26672627,Rio Ceballos,"['8173', '291', '26672627', 'JOHNSON OVIEDO', ' DOLORES', ' LARRREA 124']"
 --------,--------,---------------------------
+26673339,Villa Allende,"['10600', '26673339', '1978', 'GIANNUZZO', 'JUAN PABLO', 'B\xc2\xb0P DE AZUCAR-FILADELFIA', '716', '', 'ARQUITE', 'DNI-EA', ' ', '3', '41', 'M', '36', 'INST. SAN JOSE']"
+26673339,Unquillo,"['26673339', '1978', 'GIANNUZZO', 'JUAN PABLO', '', 'B\xc2\xb0ALTO ALEGRE-CABANA 90', 'A', 'DNI-EB', '    3', '  40', '3772', 'M', ' ', '248', '0']"
+--------,--------,---------------------------
+25367480,Villa Allende,"['5104', '25367480', '1980', 'CARRIZO', 'JUAN CARLOS', 'SAN CLEMENTE 333', '', '', 'EMPL', 'DNI', ' ', '3', '41', 'M', '18', 'INST.PAULA ALBARRACIN DE SARMIENTO']"
+25367480,Unquillo,"['25367480', '1980', 'CARRIZO', 'JUAN CARLOS', '', 'EL PEDREGAL S/N', 'A', 'DNI-EA', '    3', '  40', '3763', 'M', ' ', '60', '0']"
+--------,--------,---------------------------
+21436551,Mendiolaza,"['387', '21436551', 'AMUCHASTEGUI NESTOR CLAUDIO', 'EST', 'CIGARRALES-DIECISEIS', '6', '']"
+21436551,Unquillo,"['21436551', '1970', 'AMUCHASTEGUI', 'NESTOR CLAUDIO', '', 'URQUIZA 83', 'A', 'DNI-EA', '    3', '  40', '3756', 'M', ' ', '61', '0']"
+--------,--------,---------------------------
 6494801,Villa Allende,"['10504', '6494801', '1935', 'GEREZ', 'JULIO CESAR', 'AV DEL CARMEN', '813', '', 'JUB', 'DNI-EA', ' ', '3', '41', 'M', '36', 'INST. SAN JOSE']"
 6494801,Colonia Caroya,"['6494801', '1951', 'CA\xc3\x91ETE', 'MARIA ADELINA', 'CALLE 171 B\xc2\xb0 MALABRIGO', '1153', ' ', 'SRV DOM', 'DNID', ' ', '3', '29', 'F']"
+--------,--------,---------------------------
+38477546,Villa Allende,"['10811', '38477546', '1995', 'GLATIGNY', 'NEREA NICOLLE', 'URQUIZA', '352', '', 'EST UNI', 'DNI-EC', ' ', '3', '41', 'F', '37', 'INST. SAN JOSE']"
+38477546,Unquillo,"['38477546', '1995', 'GLATIGNY', 'NEREA NICOLLE', '', 'YAPEYU 280', 'A', 'DNI-ED', '    3', '  40', '3773', 'F', ' ', '70', '0']"
+--------,--------,---------------------------
+31404635,Villa Allende,"['14747', '31404635', '1985', 'MALDONADO', 'JULIAN MATIAS', 'PJE PARANA', '452', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'M', '50', 'INST.NVO MILENIUM']"
+31404635,Unquillo,"['31404635', '1985', 'MALDONADO', 'JULIAN MATIAS', '', 'LOS ESPINILLOS 133', 'A', 'DNI-EB', '    3', '  40', '3780', 'M', ' ', '300', '0']"
 --------,--------,---------------------------
 4929773,Villa Allende,"['26593', '4929773', '1946', 'WALKER', 'ETELVINO BENITO', 'MAIPU', '42', '', 'EST', 'DNID', ' ', '3', '41', 'M', '89', 'ESCUELA 17 DE AGOSTO']"
 4929773,Rio Ceballos,"['17342', '044', '04929773', 'WALKER', ' ETELVINO BENITO', ' AV SAN MARTIN 4366']"
@@ -134,14 +503,92 @@ DNI,Padron,Extras
 22755821,Villa Allende,"['2467', '22755821', '1972', 'BARCENILLA', 'PABLO HERNAN', 'RIO DE JANEIRO', '686', '', 'EMPL', 'DNI5', ' ', '3', '41', 'M', '9', 'GRAL SAN MARTIN']"
 22755821,Rio Ceballos,"['1486', '240', '22755821', 'BARCENILLA', ' PABLO HERNAN', ' LOS MATACOS 216']"
 --------,--------,---------------------------
+23078080,Villa Allende,"['26896', '23078080', '1973', 'ZAPATA', 'HERNAN RODRIGO', 'JUAN DE GARAY', '178', '', 'EST', 'DNID', ' ', '3', '41', 'M', '90', 'ESCUELA 17 DE AGOSTO']"
+23078080,Unquillo,"['23078080', '1973', 'ZAPATA', 'HERNAN RODRIGO', '', 'SANAVIRONES 1446', 'A', 'DNI-EB', '    3', '  40', '3802', 'M', ' ', '228', '0']"
+--------,--------,---------------------------
+35612991,Villa Allende,"['23068', '35612991', '1991', 'SALTOS', 'JOHANA JACQUELINE', 'NUEVA CALEDONIA', '1450', '', 'EST', 'DNI-EA', ' ', '3', '41', 'F', '77', 'ESCUELA 17 DE AGOSTO']"
+35612991,Unquillo,"['35612991', '1991', 'SALTOS', 'JOHANA JACQUELINE', '', 'LOS SAUCES 66', 'A', 'DNI-EB', '    3', '  40', '3795', 'F', ' ', '138', '0']"
+--------,--------,---------------------------
+35869382,Villa Allende,"['21980', '35869382', '1991', 'RODRIGUEZ', 'YOHANA YAMILA', 'CUESTA DEL TOTORAL', '226', '', 'A CASA', 'DNI-EB', ' ', '3', '41', 'F', '74', 'ESCUELA 17 DE AGOSTO']"
+35869382,Unquillo,"['35869382', '1991', 'RODRIGUEZ', 'YOHANA YAMILA', '', 'CUESTA DEL TOTORAL 226', 'A', 'DNI-EB', '    3', '  40', '3793', 'F', ' ', '253', '0']"
+--------,--------,---------------------------
+31187894,Rio Ceballos,"['16019', '203', '31187894', 'TERNAVASIO', ' MARINA VANINA', ' PARAGUAY 367']"
+31187894,Unquillo,"['31187894', '1985', 'TERNAVASIO', 'MARINA VANINA', '', 'CERRO DE LA CRUZ S/N', 'A', 'DNI-EA', '    3', '  40', '3798', 'F', ' ', '236', '0']"
+--------,--------,---------------------------
+21393503,Rio Ceballos,"['11891', '289', '21393503', 'OJEDA', ' HECTOR HUGO', ' PADRE CAVALOTTI 300']"
+21393503,Unquillo,"['21393503', '1969', 'OJEDA', 'HECTOR HUGO', '', 'SAN LORENZO 446', 'A', 'DNI-EB', '    3', '  40', '3786', 'M', ' ', '257', '0']"
+--------,--------,---------------------------
 35612915,Mendiolaza,"['7890', '35612915', 'SOSA HEREDIA MARCELO ERNESTO', 'NOCONST', 'DE LA LUNA', '585', '']"
 35612915,Villa Allende,"['24232', '35612915', '1990', 'SOSA HEREDIA', 'MARCELO ERNESTO', 'NUEVA ZELANDIA', '778', '', 'EST', 'DNI', ' ', '3', '41', 'M', '81', 'ESCUELA 17 DE AGOSTO']"
 --------,--------,---------------------------
 6515351,Villa Allende,"['23139', '6515351', '1940', 'SANCHEZ', 'ANGEL ENRIQUE', 'BALCARCE', '119', '', 'SECCTO', 'DNI-EA', ' ', '3', '41', 'M', '78', 'ESCUELA 17 DE AGOSTO']"
 6515351,Corral de Bustos,"['7791', '6515351', '1950', 'SPOHN', 'GLORIA BEATRIZ', 'STA ROSA', '346', 'PRIMCTO', 'DNI-EB', 'F']"
 --------,--------,---------------------------
+6256909,Mendiolaza,"['6188', '06256909', 'PERALTA NELIDA DEL VALLE', 'A CASA', 'DIEZ', '27', '']"
+6256909,Unquillo,"['6256909', '1949', 'PERALTA', 'NELIDA DEL VALLE', '', 'LOS TALAS 451', 'A', 'DNI-EB', '    3', '  40', '3789', 'F', ' ', '53', '0']"
+--------,--------,---------------------------
+38501092,Mendiolaza,"['1405', '38501092', 'CALDERON BRENDA N', 'NOCONST', 'LOS TILOS EL TALAR', '2393', '']"
+38501092,Unquillo,"['38501092', '1994', 'CALDERON', 'BRENDA NATALIA', '', 'STA FE Y MIRAFLORES 1734', 'A', 'DNI-EC', '    3', '  40', '3761', 'F', ' ', '299', '0']"
+--------,--------,---------------------------
+17530220,Mendiolaza,"['3020', '17530220', 'FIRBANK GRACIELA PATRICIA', 'EST', 'LOS AROMOS/ALAMEDA', '', '']"
+17530220,Unquillo,"['17530220', '1965', 'FIRBANK', 'GRACIELA PATRICIA', '', 'SPILIMBERGO 271', 'A', 'DNI-EA', '    3', '  40', '3771', 'F', ' ', '26', '0']"
+--------,--------,---------------------------
+22774122,Mendiolaza,"['4437', '22774122', 'LLUPIA PABLO NICOLAS', 'EST', 'B\xc2\xb0TALAR-LA ALAMEDA', '1038', '']"
+22774122,Unquillo,"['22774122', '1972', 'LLUPIA', 'PABLO NICOLAS', '', 'ROSARIO 429', 'A', 'DNI-EA', '    3', '  40', '3778', 'M', ' ', '313', '0']"
+--------,--------,---------------------------
+25920018,Rio Ceballos,"['14482', '096', '25920018', 'RODRIGUEZ', ' WALTER ALEJANDRO', ' CHARCAS 543']"
+25920018,Unquillo,"['25920018', '1977', 'RODRIGUEZ', 'WALTER ALEJANDRO', '', 'B\xc2\xb0CENTRO-PAVON 215', 'A', 'DNI-EB', '    3', '  40', '3793', 'M', ' ', '247', '0']"
+--------,--------,---------------------------
+25920345,Mendiolaza,"['7719', '25920345', 'SERRANO MARIA GRISELDA', 'PASTEL', 'LOS TILOS', '346', '']"
+25920345,Unquillo,"['25920345', '1977', 'SERRANO', 'MARIA GRISELDA', '', 'RICARDO ROJAS 125', 'A', 'DNI-EB', '    3', '  40', '3796', 'F', ' ', '255', '0']"
+--------,--------,---------------------------
+7986042,Mendiolaza,"['5803', '07986042', 'ONTIVERO ELISEO ANTONIO', 'REMIS', 'B\xc2\xb0CIGARRALES-CALLE 16', '6', '']"
+7986042,Unquillo,"['7986042', '1945', 'ONTIVERO', 'ELISEO ANTONIO', '', 'GUAICURUES 195', 'A', 'DNI-EA', '    3', '  40', '3787', 'M', ' ', '122', '0']"
+--------,--------,---------------------------
+25139098,Villa Allende,"['1093', '25139098', '1977', 'ALTAMIRA', 'DARIO RAMON', 'FILADELFIA', '865', '', 'NOCONST', 'DNI-EA', ' ', '3', '41', 'M', '4', 'GRAL SAN MARTIN']"
+25139098,Unquillo,"['25139098', '1977', 'ALTAMIRA', 'DARIO RAMON', '', '5 DE OCTUBRE S/N', 'A', 'DNI-EB', '    3', '  40', '3755', 'M', ' ', '221', '0']"
+--------,--------,---------------------------
+16488466,Rio Ceballos,"['2272', '340', '16488466', 'BRITO', ' LUIS ALONSO', ' RAMENVILLE-3 DE FEBRERO 375']"
+16488466,Unquillo,"['16488466', '1963', 'BRITO', 'LUIS ALONSO', '', 'ALBERDI 188', 'A', 'DNI-EB', '    3', '  40', '3760', 'M', ' ', '222', '0']"
+--------,--------,---------------------------
+30122907,Mendiolaza,"['7620', '30122907', 'SCANGARELLO MARIA GRACIA', 'UNIV', 'AV TISSERA 2175', '1', '']"
+30122907,Unquillo,"['30122907', '1983', 'SCANGARELLO', 'MARIA GRACIA', '', 'AV TISSERA 2175 1', 'A', 'DNI-EB', '    3', '  40', '3796', 'F', ' ', '130', '0']"
+--------,--------,---------------------------
 30647753,La Puerta,"['30647753', '1983', 'PERALTA', 'HEBER RAMON', 'GRAL MITRE', '0', 'PRIMCTO', 'DNI-EA', '', '14', '205']"
 30647753,Rio Ceballos,"['12736', '086', '30647753', 'PERALTA', ' HEBER RAMON', ' DIAGUITAS 306']"
 --------,--------,---------------------------
+6535424,Corral de Bustos,"['2660', '6535424', '1932', 'ELIA', 'LEONARDO', 'ALSINA', '144', 'AGRIC', 'DNI', 'M']"
+6535424,Unquillo,"['6535424', '1950', 'GUANTAY', 'MARIA DEL CARMEN', '', '5 DE OCTUBRE 325', 'A', 'DNI-EA', '    3', '  40', '3774', 'F', ' ', '341', '0']"
+--------,--------,---------------------------
+17808882,Villa Allende,"['14497', '17808882', '1966', 'LUQUEZ', 'MIGUEL ANGEL', 'URQUIZA', '620', '', 'EST', 'DNID', ' ', '3', '41', 'M', '49', 'INST.NVO MILENIUM']"
+17808882,Unquillo,"['17808882', '1966', 'LUQUEZ', 'MIGUEL ANGEL', '', 'BELARDEZ 11', 'A', 'DNI-EB', '    3', '  40', '3780', 'M', ' ', '163', '0']"
+--------,--------,---------------------------
+28177967,Rio Ceballos,"['1334', '092', '28177967', 'BAIGORRIA', ' JUAN RAMON', ' BIVERGEL- CARDEDOSA']"
+28177967,Unquillo,"['28177967', '1980', 'BAIGORRIA', 'JUAN RAMON', '', '25 DE JULIO S/N', 'A', 'DNI-EB', '    3', '  40', '3757', 'M', ' ', '229', '0']"
+--------,--------,---------------------------
+30350407,Rio Ceballos,"['13066', '046', '30350407', 'PEREZ', ' PAOLA MARISA', ' BREGANTE B! SANTA FE 330']"
+30350407,Unquillo,"['30350407', '1983', 'PEREZ', 'PAOLA MARISA', '', 'GUAICURUES 430', 'A', 'DNI-EB', '    3', '  40', '3789', 'F', ' ', '256', '0']"
+--------,--------,---------------------------
 22796506,Villa Allende,"['25885', '22796506', '1972', 'VELAZQUEZ', 'STELLA MARIS', 'PARQUE GUAMINI', '8413', '', 'TERCCTO', 'DNI-EA', ' ', '3', '41', 'F', '87', 'ESCUELA 17 DE AGOSTO']"
 22796506,Rio Ceballos,"['16857', '295', '22796506', 'VELAZQUEZ', ' STELLA MARIS', ' A YUPANQUI/L PRADERA S/N']"
+--------,--------,---------------------------
+26729088,Mendiolaza,"['3771', '26729088', 'GSPONER PABLO ANDRES', 'UNIV', 'MANZANA 278 LOTE', '6', '']"
+26729088,Unquillo,"['26729088', '1978', 'GSPONER', 'PABLO ANDRES', '', 'SABATTINI 30', 'A', 'DNI-EB', '    3', '  40', '3774', 'M', ' ', '333', '0']"
+--------,--------,---------------------------
+31187756,Rio Ceballos,"['14676', '284', '31187756', 'ROMERO', ' VANESA ALEJANDRA', ' CNO PAJAS BLANCAS KM 25']"
+31187756,Unquillo,"['31187756', '1984', 'ROMERO', 'VANESA ALEJANDRA', '', 'MATACOS 225', 'A', 'DNI-EA', '    3', '  40', '3794', 'F', ' ', '161', '0']"
+--------,--------,---------------------------
+29091945,Villa Allende,"['6502', '29091945', '1981', 'CORDOBA', 'JOSE FEDERICO', 'BELLA VISTA', '700', '', 'EST', 'DNI', ' ', '3', '41', 'M', '22', 'INST. LUJAN ']"
+29091945,Unquillo,"['29091945', '1981', 'CORDOBA', 'JOSE FEDERICO', '', 'ESTEBAB ECHEVERRIA 599', 'A', 'DNI-EA', '    3', '  40', '3765', 'M', ' ', '250', '0']"
+--------,--------,---------------------------
+36432830,Mendiolaza,"['8352', '36432830', 'VEGA JAQUELINE MARISOL', 'NOCONST', 'LOS COCOS', '136', '']"
+36432830,Unquillo,"['36432830', '1992', 'VEGA', 'JAQUELINE MARISOL', '', '25 DE JULIO 250', 'A', 'DNI-EC', '    3', '  40', '3800', 'F', ' ', '229', '0']"
+--------,--------,---------------------------
+28047688,Villa Allende,"['1047', '28047688', '1980', 'ALONSO', 'ADRIANA EVANGELINA', 'B ROLDAN 503', '', '', 'EST', 'DNI', ' ', '3', '41', 'F', '4', 'GRAL SAN MARTIN']"
+28047688,Unquillo,"['28047688', '1980', 'ALONSO', 'ADRIANA EVANGELINA', '', '5 DE OCTUBRE 1650', 'A', 'DNI-EA', '    3', '  40', '3755', 'F', ' ', '207', '0']"
+--------,--------,---------------------------
+24073372,Mendiolaza,"['6083', '24073372', 'PASSERO VIVIANA MARCELA', 'SECCTO', 'LOS LUGONOLES 8', '225', '']"
+24073372,Unquillo,"['24073372', '1974', 'PASSERO', 'VIVIANA MARCELA', '', 'LOS CEIBOS 320', 'A', 'DNI-EA', '    3', '  40', '3788', 'F', ' ', '212', '0']"
+--------,--------,---------------------------
+36699129,Rio Ceballos,"['1979', '057', '36699129', 'BIGA', ' NAHUEL', ' CARCANO 83']"
+36699129,Unquillo,"['36699129', '1992', 'BIGA', 'NAHUEL', '', 'SANTA FE 420', 'A', 'DNI-EB', '    3', '  40', '3759', 'M', ' ', '274', '0']"
