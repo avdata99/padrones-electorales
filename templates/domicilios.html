@@ -8,11 +8,9 @@
 </head>
 <body>
 
-
 <h2>{{title}}</h2>
-<h3>Cantidad de votantes en el padron: {{cantidad_votantes}}</h3>
-<h3>Cantidad de domicilios diferentes: {{cantidad_domicilios}}</h3>
-
+<h3>Cantidad de votantes en el padron: {{cantidad_votantes}}. Cantidad de domicilios diferentes: {{cantidad_domicilios}}</h3>
+<p>Domicilios con 4 o mas electores. Click en el domicilio para ampliar</p>
 <section class="accordion" role="tablist" aria-multiselectable="true">
 
     {% for direccion, datos in direcciones %}

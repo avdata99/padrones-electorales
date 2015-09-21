@@ -177,7 +177,8 @@ for p in padrones:
     print "Nicing %s %s" % (p['nombre'], p['detalle'])
     
     lista = domicilios[p['nombre']]['domicilios']
-    lista_ord = sorted(lista.iteritems(), key=lambda d: d[1].get('total', {}), reverse=True)
+    # solo los top 500 con mas votantes
+    lista_ord = sorted(lista.iteritems(), key=lambda d: d[1].get('total', {}), reverse=True)[:500]
 
     tpl = template.render(title='Padron de %s'  % p['nombre'],
         cantidad_votantes=total_votantes_padron[p['nombre']],
