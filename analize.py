@@ -11,7 +11,8 @@ padrones = []
 for line in reader:
     # path, dni_column, nombre, calle_column, calle_nro_column, depto_column, barrio_column = line
     padron = {'path': line[0],'dni_column': int(line[1]), 'nombre': line[2],'calle_column': int(line[3]),
-                'calle_nro_column': int(line[4]), 'depto_column': int(line[5]),'barrio_column': int(line[6])}
+                'calle_nro_column': int(line[4]), 'depto_column': int(line[5]),
+                'barrio_column': int(line[6]), 'detalle': line[8]}
     # print str(padron)
     # detectar si hay un <cleaner>
     ps = padron['path'].split('/')
@@ -127,8 +128,10 @@ with open('dnis_repetidos.csv', 'w') as csvfile:
                 writer.writerow({'DNI': dni, 'Padron': v['Padron'], 'Extras': v['linea']})
 
 
-# domicilios mas usados por ciudad
+# domicilios mas usados por ciudad TXT
 for p in padrones:
+    print "Analysing %s %s" % (p['nombre'], p['detalle'])
+    
     lista = domicilios[p['nombre']]['domicilios']
     lista_ord = sorted(lista.iteritems(), key=lambda d: d[1].get('total', {}), reverse=True)
 
@@ -160,4 +163,30 @@ for p in padrones:
     for error in domicilios[p['nombre']]['errores']:
         f.write('%s\n' % error)
         
+    f.close()
+
+
+# domicilios mas usados por ciudad (NICE)
+from jinja2 import Environment, FileSystemLoader
+# from slugify import slugify
+env = Environment(loader=FileSystemLoader('templates'))
+
+template = env.get_template('domicilios.html')
+
+for p in padrones:
+    print "Nicing %s %s" % (p['nombre'], p['detalle'])
+    
+    lista = domicilios[p['nombre']]['domicilios']
+    lista_ord = sorted(lista.iteritems(), key=lambda d: d[1].get('total', {}), reverse=True)
+
+    tpl = template.render(title='Padron de %s'  % p['nombre'],
+        cantidad_votantes=total_votantes_padron[p['nombre']],
+        cantidad_domicilios=len(lista),
+        direcciones=lista_ord)
+
+    ciudad = p['nombre'].replace(' ', '-')
+    detalle = p['detalle'].replace(' ', '-')
+    nice_city = '%s-%s' % (ciudad, detalle)
+    f = codecs.open('domicilios-mas-usados/view/%s.html' % nice_city, 'w', encoding='utf8')
+    f.write(tpl)    
     f.close()
