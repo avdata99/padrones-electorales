@@ -180,7 +180,7 @@ for p in padrones:
     # solo los top 500 con mas votantes
     lista_ord = sorted(lista.iteritems(), key=lambda d: d[1].get('total', {}), reverse=True)[:500]
 
-    tpl = template.render(title='Padron de %s'  % p['nombre'],
+    tpl = template.render(title='Padron de %s %s'  % (p['nombre'], p['detalle']),
         cantidad_votantes=total_votantes_padron[p['nombre']],
         cantidad_domicilios=len(lista),
         direcciones=lista_ord)
