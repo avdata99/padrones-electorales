@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{title}}</title>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<h2>{{title}}</h2>
+<h3>Cantidad de votantes en el padron: {{cantidad_votantes}}</h3>
+<h3>Cantidad de domicilios diferentes: {{cantidad_domicilios}}</h3>
+
+<section class="accordion" role="tablist" aria-multiselectable="true">
+
+    {% for direccion, datos in direcciones %}
+    <a class="accordion-panel__heading" href="javascript:;">{{direccion}} - {{datos.usos|length}} votantes</a>
+    <div class="accordion-panel__content">
+        <h4>Votantes en este domicilio</h4>
+        {% for v in datos.usos%}
+            <p>{{v}}</p>
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+</section>
+
+<p><br><br></p>
+<h4>View the Github page for this project here:</h4>
+<p><a href="https://github.com/benbowes/Accessible-Accordian-Class-Pure-JS-CSS">https://github.com/benbowes/Accessible-Accordian-Class-Pure-JS-CSS</a></p>
+
+<script src="myAPP.js"></script>
+
+</body>
+</html>
