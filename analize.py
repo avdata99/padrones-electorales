@@ -3,6 +3,37 @@
 import csv
 import codecs
 import os
+import sys
+
+padrones_a_usar = []
+for arg in sys.argv:
+    if arg == '-h' or arg == '--help':
+        print "Analizar padrones en CSV (listados previamente en <padrones_index.csv>)"
+        print "  <padrones_index.csv> es un CSV con los padrones cargados en el sistema"
+        print "  Usa los campos:"
+        print "    0: path. Path relativo al csv con el padron"
+        print "    1: dni_column. Indice (basado en cero) de la columna con el DNI en el padron"
+        print "    2: Nombre de la ciudad"
+        print "    3: calle_column. Indice de la columna que tiene la calle(o toda la direccion)"
+        print "    4: nro de casa, solo en caso de que exista. -1 si no se usa"
+        print "    5: depto nro, solo en caso de que exista. -1 si no se usa"
+        print "    6: barrio, solo en caso de que exista. -1 si no se usa"
+        print "    7: No me acuerdo"
+        print "    8: Detalle de la eleccion que usa este padron"
+        print "    9: ID unico sin espacios (para usar con --just por ejemplo)"
+        print ""
+        print "  --PARAMS--"
+        print ""
+        print "  -h | --help inprime esta lista"
+        print "  --just=Padron1,Padron2 Analizar SOLO los padrones listados. Identificar el padron con el campo ID (9 de la lista)"
+        print ""
+        exit(0)
+        
+    if arg.startswith('--just'):
+        p = arg.split('=')
+        padrones_a_usar=p[1].split(',')    
+        
+
 
 # cargar todos los padrones al sistema
 pi = open('padrones_index.csv', 'r')
@@ -12,9 +43,13 @@ for line in reader:
     # path, dni_column, nombre, calle_column, calle_nro_column, depto_column, barrio_column = line
     padron = {'path': line[0],'dni_column': int(line[1]), 'nombre': line[2],'calle_column': int(line[3]),
                 'calle_nro_column': int(line[4]), 'depto_column': int(line[5]),
-                'barrio_column': int(line[6]), 'detalle': line[8]}
+                'barrio_column': int(line[6]), 'detalle': line[8], 'id': line[9]}
     # print str(padron)
     # detectar si hay un <cleaner>
+    if len(padrones_a_usar) > 0 and padron['id'] not in padrones_a_usar:
+        print "OMITIENDO %s" % padron['id']
+        continue
+        
     ps = padron['path'].split('/')
     padron['folder'] = ps[1]
     cleaner = '%s/%s/cleaner.py' % (ps[0], padron['folder'])
@@ -42,6 +77,8 @@ for p in padrones:
     total_votantes_padron[p['nombre']] = 0
     for line in reader:
         total_votantes_padron[p['nombre']] = total_votantes_padron[p['nombre']] + 1
+        if total_votantes_padron[p['nombre']] % 5000 == 0:
+            print '%s Processing %d' % (p['id'], total_votantes_padron[p['nombre']])
         # -------------------DNIs--------------------------------------------
         try:
             dni = line[p['dni_column']]
