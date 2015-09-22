@@ -129,7 +129,7 @@ for p in padrones:
         if p['apellido_column'] > -1:
             nombre = '%s %s' % (line[p['apellido_column']].decode('utf-8'), nombre)    
             
-        anon_linea = 'DNI: %s***** NOMBRE: %s********** DOMICILIO: %s' % (str(dni)[:4], nombre[:5], domicilio.decode('utf-8')) # linea anonimizada
+        anon_linea = 'DNI: %s*** NOMBRE: %s********* DOMICILIO: %s' % (str(dni)[:5], nombre[:8], domicilio.decode('utf-8')) # linea anonimizada
         
         # quitar espacios multiples
         try:
