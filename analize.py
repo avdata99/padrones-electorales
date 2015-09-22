@@ -43,7 +43,8 @@ for line in reader:
     # path, dni_column, nombre, calle_column, calle_nro_column, depto_column, barrio_column = line
     padron = {'path': line[0],'dni_column': int(line[1]), 'nombre': line[2],'calle_column': int(line[3]),
                 'calle_nro_column': int(line[4]), 'depto_column': int(line[5]),
-                'barrio_column': int(line[6]), 'detalle': line[8], 'id': line[9]}
+                'barrio_column': int(line[6]), 'detalle': line[8], 'id': line[9],
+                'apellido_column': int(line[10]), 'nombre_column': int(line[10])}
     # print str(padron)
     # detectar si hay un <cleaner>
     if len(padrones_a_usar) > 0 and padron['id'] not in padrones_a_usar:
@@ -123,7 +124,13 @@ for p in padrones:
         except Exception, e:
             domicilios[p['nombre']]['errores'].append(line)
             continue
+
+        nombre = line[p['nombre_column']].decode('utf-8')
+        if p['apellido_column'] > -1:
+            nombre = '%s %s' % (line[p['apellido_column']].decode('utf-8'), nombre)    
             
+        anon_linea = 'DNI: %s***** NOMBRE: %s********** DOMICILIO: %s' % (str(dni)[:4], nombre[:5], domicilio.decode('utf-8')) # linea anonimizada
+        
         # quitar espacios multiples
         try:
             domicilio = domicilio if type(domicilio) == unicode else domicilio.decode('utf-8')
@@ -147,8 +154,9 @@ for p in padrones:
         if domicilios[p['nombre']]['domicilios'].get(domicilio, None):
             domicilios[p['nombre']]['domicilios'][domicilio]['total'] = domicilios[p['nombre']]['domicilios'][domicilio]['total'] + 1
             domicilios[p['nombre']]['domicilios'][domicilio]['usos'].append(linea)
+            domicilios[p['nombre']]['domicilios'][domicilio]['usos_anon'].append(anon_linea)
         else:
-            domicilios[p['nombre']]['domicilios'][domicilio] = {'total': 1, 'usos': [linea]}
+            domicilios[p['nombre']]['domicilios'][domicilio] = {'total': 1, 'usos': [linea], 'usos_anon': [anon_linea]}
     
 # imprimir los resultados a CSV
 

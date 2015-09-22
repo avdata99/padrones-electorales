@@ -149,7 +149,10 @@ class Cleaner():
             (u'M MORENO', u'MARIANO MORENO'),
             (u'M.MORENO', u'MARIANO MORENO'),
             
+            (u'PANAMERICANA KM.49', u'PANAMERICANA KM 49'),
             
+            (u' KM.', u' KM '),
+            (u'-KM.', u' KM '),
             (u'S/N', u''),
             (u'N°', u' '),
             
