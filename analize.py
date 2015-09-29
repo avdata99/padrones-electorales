@@ -44,7 +44,7 @@ for line in reader:
     padron = {'path': line[0],'dni_column': int(line[1]), 'nombre': line[2],'calle_column': int(line[3]),
                 'calle_nro_column': int(line[4]), 'depto_column': int(line[5]),
                 'barrio_column': int(line[6]), 'detalle': line[8], 'id': line[9],
-                'apellido_column': int(line[10]), 'nombre_column': int(line[10])}
+                'apellido_column': int(line[10]), 'nombre_column': int(line[11])}
     # print str(padron)
     # detectar si hay un <cleaner>
     if len(padrones_a_usar) > 0 and padron['id'] not in padrones_a_usar:
@@ -192,7 +192,30 @@ for p in padrones:
     for domicilio in lista_ord:
         k, v = domicilio
         f.write('%s :: %d USOS \n' % (k, len(v['usos'])))
+
+    # mostrar errores
+    f.write('\n===========================================\n')
+    f.write('ERRORES: %d\n' % len(domicilios[p['nombre']]['errores']))
         
+    for error in domicilios[p['nombre']]['errores']:
+        f.write('%s\n' % error)
+        
+    f.close()
+
+# detalle x domicilio
+for p in padrones:
+    print "Detalle domicilios %s %s" % (p['nombre'], p['detalle'])
+    
+    lista = domicilios[p['nombre']]['domicilios']
+    lista_ord = sorted(lista.iteritems(), key=lambda d: d[1].get('total', {}), reverse=True)
+
+    f = codecs.open('domicilios-mas-usados/domicilios_detalles_en_%s.txt' % p['nombre'], 'w', encoding='utf8')
+    f.write('DOMICILIOS MAS USADOS EN EL PADRON: %s\n' % p['nombre'])
+    f.write('Cantidad de votantes en el padron: %d\n' % total_votantes_padron[p['nombre']])
+    f.write('Cantidad de domicilios diferentes: %d\n' % len(lista))
+    f.write('Errores al leer domicilios: %d\n' % len(domicilios[p['nombre']]['errores']))
+    
+
     # ahora los dpomicilios y el detalle
     for domicilio in lista_ord:
         k, v = domicilio
@@ -209,7 +232,6 @@ for p in padrones:
         f.write('%s\n' % error)
         
     f.close()
-
 
 # domicilios mas usados por ciudad (NICE)
 from jinja2 import Environment, FileSystemLoader
