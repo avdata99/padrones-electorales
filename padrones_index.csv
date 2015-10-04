@@ -6,7 +6,8 @@ padronesListos/La-Puerta/Padron-La-Puerta-2015.csv,0,La Puerta,4,5,-1,-1,1,,LaPu
 padronesListos/San-Pedro-San-Alberto/San-Pedro-San-Alberto-2015.csv,1,San Pedro San Alberto,6,7,-1,-1,-1,,SanPedroSanAlberto,-1,-1
 padronesListos/Sacanta/Sacanta-2015.csv,1,Sacanta,5,6,-1,-1,2,,Sacanta,3,4
 padronesListos/Corral-de-Bustos/Corral-de-Bustos-2015.csv,1,Corral de Bustos,5,6,-1,-1,2,,Corral,3,4
-padronesListos/Rio-Ceballos/Rio-Ceballos-2015.csv,2,Rio Ceballos,5,-1,-1,-1,-1,Gobernador 2015,RioGob2015,3,4
+padronesListos/Rio-Ceballos/Rio-Ceballos-Gobernador-2015.csv,2,Rio Ceballos Gobernador,5,-1,-1,-1,-1,Gobernador 2015,RioGob2015,3,4
+padronesListos/Rio-Ceballos/Rio-Ceballos-Paso-2015.csv,0,Rio Ceballos Paso,5,-1,-1,-1,-1,Paso 2015,RioPaso2015,2,3
 padronesListos/Unquillo/unquillo-paso-2015.csv,0,Unquillo,5,-1,-1,-1,-1,Paso 2015,UnquilloPaso2015,2,3
 padronesListos/Saldan/Saldan-PASO-2015.csv,0,Saldan,5,-1,-1,-1,-1,Paso 2015,SaldanPaso2015,2,3
 padronesListos/Pilar-BsAs/Padron-Pilar-2015.csv,0,Pilar,4,-1,-1,-1,-1,2015,Pilar2015,2,3

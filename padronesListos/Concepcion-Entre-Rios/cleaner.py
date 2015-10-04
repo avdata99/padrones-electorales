@@ -94,7 +94,8 @@ class Cleaner():
             (u'HIPOLITO YRIGOYEN', u'YRIGOYEN'),
             (u'BV. HIPOLITO IRIGOYEN', u'YRIGOYEN'),
             (u'BV.HIPOLITO IRIGOYEN', u'YRIGOYEN'),
-            
+
+            (u'A°MOLINO', u'ARROYO MOLINO'),
             
             (u'SGO DEL ESTERO', u'SANTIAGO DEL ESTERO'),
             (u'S DEL ESTERO', u'SANTIAGO DEL ESTERO'),
@@ -249,6 +250,13 @@ class Cleaner():
             (u'BO HIPODROMO', u'BARRIO HIPODROMO'),
             (u'BO HIPODROMO', u'BARRIO HIPODROMO'),
             
+            (u'TALITAS', u'TALITA'),
+            (u'CNIA.TALITA', u'TALITA'),
+            (u'COLONIA TALITA', u'TALITA'),
+            (u'EL TALITA', u'TALITA'),
+            (u'B°TALITA', u'TALITA'),
+            (u'B° TALITA', u'TALITA'),
+            
             
             
             
@@ -261,6 +269,7 @@ class Cleaner():
     
     # reemplazos despues de la limpieza de barrios
     replaces2 = OrderedDict((
+            
             
     ))
     

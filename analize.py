@@ -6,6 +6,9 @@ import os
 import sys
 
 padrones_a_usar = []
+repetidos = False
+diff = False
+
 for arg in sys.argv:
     if arg == '-h' or arg == '--help':
         print "Analizar padrones en CSV (listados previamente en <padrones_index.csv>)"
@@ -26,12 +29,20 @@ for arg in sys.argv:
         print ""
         print "  -h | --help inprime esta lista"
         print "  --just=Padron1,Padron2 Analizar SOLO los padrones listados. Identificar el padron con el campo ID (9 de la lista)"
+        print "  --repetidos Analizar los DNIs repetidos y escribirlos en <dnis_repetidos.csv>"
+        print "  --diff Analizar los DNIs NO repetidos y grabar a <diff.csv>. Util para dos padrones de la misma ciudad"
         print ""
         exit(0)
         
     if arg.startswith('--just'):
         p = arg.split('=')
         padrones_a_usar=p[1].split(',')    
+
+    if arg == '--repetidos':
+        repetidos = True
+
+    if arg == '--diff':
+        diff = True
         
 
 
@@ -96,15 +107,6 @@ for p in padrones:
             print "Padron %s. DNI no valido '%s' %s" % (p['nombre'], dni, str(e))
             continue
 
-        linea = unicode(line)
-        este = {'Padron': p['nombre'], 'linea': linea}
-        
-        if dni in dnis: # puede haber duplicados denotr de un mismo padron
-            votantes[dni].append(este)
-        else:
-            dnis.append(dni)
-            votantes[dni] = [este]
-
         # -------------------DOMICILIOs--------------------------------------
         # algunas veces le faltan comas ...
         try:
@@ -150,6 +152,24 @@ for p in padrones:
             Cleaner = _temp.Cleaner
             c = Cleaner()
             domicilio = c.clean(domicilio)
+
+
+        d1 = line[p['dni_column']]
+        d2 = line[p['nombre_column']]
+        d3 = line[p['apellido_column']]
+        d4 = line[p['calle_column']]
+        line.remove(d1)
+        line.remove(d2)
+        line.remove(d3)
+        line.remove(d4)
+        linea = unicode(line) # los saldos
+        este = {'Padron': p['nombre'], 'linea': linea, 'domicilio': domicilio, 'nombre': nombre}
+        
+        if dni in dnis: # puede haber duplicados denotr de un mismo padron
+            votantes[dni].append(este)
+        else:
+            dnis.append(dni)
+            votantes[dni] = [este]
             
         if domicilios[p['nombre']]['domicilios'].get(domicilio, None):
             domicilios[p['nombre']]['domicilios'][domicilio]['total'] = domicilios[p['nombre']]['domicilios'][domicilio]['total'] + 1
@@ -157,20 +177,53 @@ for p in padrones:
             domicilios[p['nombre']]['domicilios'][domicilio]['usos_anon'].append(anon_linea)
         else:
             domicilios[p['nombre']]['domicilios'][domicilio] = {'total': 1, 'usos': [linea], 'usos_anon': [anon_linea]}
+
+
+        
     
 # imprimir los resultados a CSV
 
 # DNIs repetidos
-with open('dnis_repetidos.csv', 'w') as csvfile:
-    fieldnames = ['DNI','Padron', 'Extras']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+if repetidos:
+    with open('dnis_repetidos.csv', 'w') as csvfile:
+        fieldnames = ['DNI','Padron', 'Domicilio', 'Nombre', 'Extras']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    
+        writer.writeheader()
+        for dni, votante in votantes.iteritems():
+            if len(votante) > 1:
+                writer.writerow({'DNI': '--------', 'Padron': '--------', 
+                                 'Domicilio': '----------------', 
+                                 'Nombre': '-----------------', 
+                                 'Extras': '---------------------------'})
+                for v in votante:
+                    linea = v['linea']
+                    dom = v['domicilio'].encode('utf-8')
+                    nom = v['nombre'].encode('utf-8')
+                    writer.writerow({'DNI': dni, 'Padron': v['Padron'], 
+                                     'Domicilio': dom, 
+                                     'Nombre': nom, 
+                                     'Extras': linea})
 
-    writer.writeheader()
-    for dni, votantes in votantes.iteritems():
-        if len(votantes) > 1:
-            writer.writerow({'DNI': '--------', 'Padron': '--------', 'Extras': '---------------------------'})
-            for v in votantes:
-                writer.writerow({'DNI': dni, 'Padron': v['Padron'], 'Extras': v['linea']})
+# DNIs diferentes
+if diff:
+    with open('diff.csv', 'w') as csvfile:
+        fieldnames = ['DNI','Padron', 'Domicilio', 'Nombre', 'Extras']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    
+        writer.writeheader()
+        for dni, votante in votantes.iteritems():
+            if len(votante) == 1:
+                v = votante[0]
+                linea = v['linea']
+                dom = v['domicilio'].encode('utf-8')
+                nom = v['nombre'].encode('utf-8')
+                
+                writer.writerow({'DNI': dni, 'Padron': v['Padron'], 
+                                 'Domicilio': dom, 
+                                 'Extras': linea ,
+                                 'Nombre': nom
+                                 })
 
 
 # domicilios mas usados por ciudad TXT
