@@ -4,6 +4,9 @@ __pycache__/
 *.nja
 *~
 .~lock*
+dnis_repetidos.csv
+diff.csv
+padronesAProcesar/Mendiolaza-Municipales-2015/
 
 # C extensions
 *.so
