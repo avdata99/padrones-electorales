@@ -1,6 +1,7 @@
-DOMICILIOS MAS USADOS EN EL PADRON: Mendiolaza 2019
+DOMICILIOS MAS USADOS EN EL PADRON: Mendiolaza2019
 Cantidad de votantes en el padron: 11927
 Cantidad de domicilios diferentes: 6660
+Errores al leer domicilios: 0
 
 ===========================================
 CENTRO JOSE DE CALASANZ 1070 :: 35 USOS 
@@ -41,7 +42,7 @@ CENTRO JOSE DE CALASANZ 1070 :: 35 USOS
   - ['349', '16409716', '1962', 'ALLIEVI', 'CARLOS ALEJANDRO', 'AV SAN JOSE DE CALASANZ 1070           ', 'AV SAN JOSE DE CALASANZ 1070', 'Centro', 'Centro', 'Centro', 'DNI-EC', '40A', 'M']
 
 ===========================================
-CENTRO COLON 0 :: 33 USOS -- VOTANTES CALLE SIN NUMERO
+CENTRO COLON 0 :: 33 USOS 
   - ['11818', '34768757', '1989', 'ZANETTI', 'MARTIN ALEJANDRO', 'COLON 0           ', 'COLON 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EB', '40A', 'M']
   - ['11656', '6692782', '1942', 'VILLULLAS', 'JUAN EDUARDO', 'COLON 0           ', 'COLON 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EB', '40A', 'M']
   - ['11503', '21685593', '1971', 'VERON', 'JOSE LUIS', 'COLON 0           ', 'COLON 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EB', '40A', 'M']
@@ -77,7 +78,7 @@ CENTRO COLON 0 :: 33 USOS -- VOTANTES CALLE SIN NUMERO
   - ['278', '32786840', '1987', 'ALFARO', 'FLORENCIA BETIANA', 'COLON 0           ', 'COLON 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EA', '40A', 'F']
 
 ===========================================
-CENTRO ESPAÑA 0 :: 33 USOS -- VOTANTES CALLE SIN NUMERO
+CENTRO ESPAÑA 0 :: 33 USOS 
   - ['11622', '30123785', '1978', 'VILLARREAL', 'OMAR EDUARDO', 'ESPA\xc3\x91A 0           ', 'ESPA\xc3\x91A 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EB', '40A', 'M']
   - ['11438', '30122691', '1983', 'VELEZ', 'CHRISTIAN BERNABE', 'ESPA\xc3\x91A 0           ', 'ESPA\xc3\x91A 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EB', '40A', 'M']
   - ['11124', '12564926', '1956', 'TORRES', 'MIGUEL ANGEL', 'ESPA\xc3\x91A 0           ', 'ESPA\xc3\x91A 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EA', '40A', 'M']
@@ -113,7 +114,7 @@ CENTRO ESPAÑA 0 :: 33 USOS -- VOTANTES CALLE SIN NUMERO
   - ['152', '22033919', '1971', 'AGUIRRE', 'CARLOS GUSTAVO', 'ESPA\xc3\x91A 0           ', 'ESPA\xc3\x91A 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EB', '40A', 'M']
 
 ===========================================
-TALAR LOS ROBLES 0 :: 28 USOS -- VOTANTES CALLE SIN NUMERO
+TALAR LOS ROBLES 0 :: 28 USOS 
   - ['11268', '13820453', '1957', 'VALDIVIA', 'SILVIA DEL MILAGRO', 'LOS ROBLES 0           ', 'LOS ROBLES 0', 'Talar', 'Talar', 'SIN DATOS', 'DNI-EA', '40A', 'F']
   - ['10658', '30124951', '1983', 'SOLANA ARTICO', 'MATIAS DAMIAN', 'LOS ROBLES 0           ', 'LOS ROBLES 0', 'Talar', 'Talar', 'SIN DATOS', 'DNI-EA', '40A', 'M']
   - ['10035', '39498580', '1996', 'SAHADE', 'ABRIL', 'LOS ROBLES 0           ', 'LOS ROBLES 0', 'Talar', 'Talar', 'SIN DATOS', 'DNI-EA', '40A', 'F']
@@ -144,7 +145,7 @@ TALAR LOS ROBLES 0 :: 28 USOS -- VOTANTES CALLE SIN NUMERO
   - ['148', '25652594', '1976', 'AGUIRRE', 'ANDREA FABIANA', 'LOS ROBLES 0           ', 'LOS ROBLES 0', 'Talar', 'Talar', 'SIN DATOS', 'DNI-EA', '40A', 'F']
 
 ===========================================
-CENTRO MALVINAS 0 :: 26 USOS -- VOTANTES CALLE SIN NUMERO
+CENTRO MALVINAS 0 :: 26 USOS 
   - ['11450', '40418278', '1997', 'VELEZ', 'ROCIO DEL VALLE', 'AV MALVINAS 0           ', 'AV MALVINAS 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EB', '40A', 'F']
   - ['9982', '18250032', '1966', 'RUIZ', 'SILVINA CLAUDIA', 'AV LAS MALVINAS 0           ', 'AV LAS MALVINAS 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EA', '40A', 'F']
   - ['9061', '29712928', '1982', 'QUI\xc3\x91ONES', 'CARLOS HECTOR', 'AV MALVINAS 0           ', 'AV MALVINAS 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EB', '40A', 'M']
@@ -173,7 +174,7 @@ CENTRO MALVINAS 0 :: 26 USOS -- VOTANTES CALLE SIN NUMERO
   - ['84', '35580116', '1991', 'ACOSTA CUPANI', 'MARCOS DANIEL ALEXIS', 'AV LAS MALVINAS 0           ', 'AV LAS MALVINAS 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EC', '40A', 'M']
 
 ===========================================
-Q2 JOSE DE CALASANZ 597 :: 25 USOS -- DEBE SER LA ENTRADA DEL Q2, hay que pedir que es especifiquen el domicilio real
+Q2 JOSE DE CALASANZ 597 :: 25 USOS 
   - ['10901', '26481303', '1978', 'TAGLE', 'GREGORIO', 'AV SAN JOSE DE CALASANZ 597           ', 'AV SAN JOSE DE CALASANZ 597', 'Q2', 'Q2', 'Q2', 'DNI-EA', '40A', 'M']
   - ['10348', '10173533', '1951', 'SASTRE', 'FERNANDO', 'AV S J DE CALASANZ 597           ', 'AV S J DE CALASANZ 597', 'Q2', 'Q2', 'Q2', 'DNI-EA', '40A', 'M']
   - ['9927', '5662004', '1947', 'RUEDA', 'GABRIELA', 'SAN JOSE DE CALAZANS 597           ', 'SAN JOSE DE CALAZANS 597', 'Q2', 'Q2', 'Q2', 'DNI-EE', '40A', 'F']
@@ -201,7 +202,7 @@ Q2 JOSE DE CALASANZ 597 :: 25 USOS -- DEBE SER LA ENTRADA DEL Q2, hay que pedir 
   - ['982', '38412407', '1993', 'BANEGAS ALVAREZ', 'CLAUDIO RODRIGO', 'AV SAN JOSE DE CALASANZ 597           ', 'AV SAN JOSE DE CALASANZ 597', 'Q2', 'Desconocido', 'Q2', 'DNI-EB', '40A', 'M']
 
 ===========================================
-CALLE 16 6 :: 24 USOS 
+16 6 :: 24 USOS 
   - ['11453', '20873842', '1969', 'VELIZ', 'MABEL OFELIA', 'CALLE 16 6           ', 'CALLE 16 6', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EB', '40A', 'F']
   - ['9527', '33314631', '1987', 'RODRIGUEZ', 'CECILIA IVANA DEL VALLE', 'CALLE 16 6           ', 'CALLE 16 6', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EC', '40A', 'F']
   - ['8868', '22449555', '1971', 'POROPAT', 'FABIANA ANDREA', 'LOS CIGARRALES 16         6 ', 'LOS CIGARRALES 16 6', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EA', '40A', 'F']
@@ -228,7 +229,7 @@ CALLE 16 6 :: 24 USOS
   - ['990', '14308792', '1960', 'BARALE', 'ADRIANA VERONICA LUCILA', 'CALLE 16 6           ', 'CALLE 16 6', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EA', '40A', 'F']
 
 ===========================================
-CALLE PUBLICA 0 :: 22 USOS -- No se debería permitir esto
+DESCONOCIDO PUBLICA 0 :: 22 USOS 
   - ['11343', '6510617', '1939', 'VARGAS', 'HECTOR ABDON', 'PUBLICA 0           ', 'PUBLICA 0', 'Desconocido', 'SIN DATOS', 'SIN DATOS', 'DNI-EB', '40A', 'M']
   - ['11008', '24607105', '1976', 'TOBARES', 'JOSE ANTONIO', 'PUBLICA 0           ', 'PUBLICA 0', 'Desconocido', 'Desconocido', 'SIN DATOS', 'DNI', '40A', 'M']
   - ['9500', '38282473', '1995', 'ROCHA', 'SOL', 'PUBLICA 0           ', 'PUBLICA 0', 'Desconocido', 'Desconocido', 'SIN DATOS', 'DNI-EA', '40A', 'F']
@@ -253,7 +254,7 @@ CALLE PUBLICA 0 :: 22 USOS -- No se debería permitir esto
   - ['219', '14292510', '1960', 'ALARCON', 'MIRTA EDITH', 'PUBLICA 0           ', 'PUBLICA 0', 'Desconocido', 'Desconocido', 'SIN DATOS', 'DNI-EA', '40A', 'F']
 
 ===========================================
-CALLE 10 27 :: 18 USOS 
+10 27 :: 18 USOS 
   - ['11653', '39499137', '1996', 'VILLELLA', 'MATIAS', 'CALLE 10 27           ', 'CALLE 10 27', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EC', '40A', 'M']
   - ['10819', '17842344', '1966', 'SUAREZ', 'CLAUDIA BEATRIZ', 'CALLE 10 -CIGARRALES- 27           ', 'CALLE 10 -CIGARRALES- 27', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EA', '40A', 'F']
   - ['8875', '22566127', '1972', 'PORTELA', 'VICTOR MARIO', 'CALLE 10 27           ', 'CALLE 10 27', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EB', '40A', 'M']
@@ -274,7 +275,7 @@ CALLE 10 27 :: 18 USOS
   - ['433', '24845762', '1974', 'ALTAMIRANO', 'MARIA EUGENIA', 'CALLE 10 27           ', 'CALLE 10 27', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EC', '40A', 'F']
 
 ===========================================
-CALLE 6 ESQ 16 0 :: 16 USOS 
+6 ESQ 16 0 :: 16 USOS 
   - ['11782', '31356476', '1985', 'ZALAZAR', 'MARIA ELSA INES', 'CALLE 6 ESQ 16 0           ', 'CALLE 6 ESQ 16 0', 'Cigarrales', 'Cigarrales', 'SIN DATOS', 'DNI-EB', '40A', 'F']
   - ['11038', '22775993', '1972', 'TOLEDO', 'WALTER RUBEN', 'CALLE 6 ESQ 16 0           ', 'CALLE 6 ESQ 16 0', 'Cigarrales', 'Cigarrales', 'SIN DATOS', 'DNI-EC', '40A', 'M']
   - ['10924', '21900232', '1970', 'TAPIA', 'YOLANDA LILIANA', 'CALLE 6 ESQ 16 0           ', 'CALLE 6 ESQ 16 0', 'Cigarrales', 'Cigarrales', 'SIN DATOS', 'DNI-EB', '40A', 'F']
@@ -293,7 +294,7 @@ CALLE 6 ESQ 16 0 :: 16 USOS
   - ['2876', '21391105', '1969', 'CORDOBA', 'NORMA BEATRIZ', 'CALLE 6 ESQ 16 0           ', 'CALLE 6 ESQ 16 0', 'Cigarrales', 'Cigarrales', 'SIN DATOS', 'DNI-EB', '40A', 'F']
 
 ===========================================
-CENTRO CALLE SARMIENTO 17 :: 15 USOS 
+CENTRO SARMIENTO 17 :: 15 USOS 
   - ['11098', '24946896', '1975', 'TORRES', 'ARIEL ADOLFO', 'SARMIENTO 17           ', 'SARMIENTO 17', 'Centro', 'Centro', 'Centro', 'DNI-EB', '40A', 'M']
   - ['11117', '43927773', '2002', 'TORRES', 'MALENA', 'SARMIENTO 17           ', 'SARMIENTO 17', 'Centro', 'SIN DATOS', 'Centro', 'DNI-EA', '40A', 'F']
   - ['10561', '23212309', '1972', 'SILVA', 'DAMIAN GUSTAVO', 'SARMIENTO 17           ', 'SARMIENTO 17', 'Centro', 'Centro', 'Centro', 'DNI-EC', '40A', 'M']
@@ -328,7 +329,7 @@ CENTRO CORDOBA 0 :: 14 USOS
   - ['684', '22562600', '1972', 'ARGUELLO', 'ARIEL ESTEBAN', 'CORDOBA 0           ', 'CORDOBA 0', 'Centro', 'Centro', 'SIN DATOS', 'DNI-EA', '40A', 'M']
 
 ===========================================
-CALLE 9 98 :: 14 USOS 
+9 98 :: 14 USOS 
   - ['11501', '36354226', '1992', 'VERGARA OVIEDO', 'BRAIAN EMMANUEL', 'CALLE NUEVE 98           ', 'CALLE NUEVE 98', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-ED', '40A', 'M']
   - ['11499', '13440989', '1959', 'VERGARA', 'VICTOR ALBERTO', 'CALLE NUEVE 98           ', 'CALLE NUEVE 98', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EB', '40A', 'M']
   - ['9738', '38180808', '1994', 'ROMERO', 'ARNALDO JES\xc3\x9aS', 'CALLE 9 98     LOS CIGARRALES     ', 'CALLE 9 98 LOS CIGARRALES', 'Cigarrales', 'Cigarrales', 'SIN DATOS', 'DNI-EC', '40A', 'M']
@@ -345,7 +346,7 @@ CALLE 9 98 :: 14 USOS
   - ['406', '33831240', '1988', 'ALMIRON BARRERA', 'ERIKA STEFANI', 'CALLE 9 98           ', 'CALLE 9 98', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EA', '40A', 'F']
 
 ===========================================
-CALLE 6 33 :: 14 USOS 
+6 33 :: 14 USOS 
   - ['10135', '29676696', '1982', 'SALVADOR', 'MARIA INES', 'LOS CIGARRALES A CALLE 6 33           ', 'LOS CIGARRALES A CALLE 6 33', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EB', '40A', 'F']
   - ['4831', '26820045', '1978', 'GOMEZ', 'GUSTAVO ANTONIO', 'CALLE 6 33           ', 'CALLE 6 33', 'Cigarrales', 'SIN DATOS', 'Cigarrales', 'DNI-EC', '40A', 'M']
   - ['4844', '31923296', '1985', 'GOMEZ', 'LUCIANO ARIEL', 'CALLE 6 33           ', 'CALLE 6 33', 'Cigarrales', 'Cigarrales', 'Cigarrales', 'DNI-EA', '40A', 'M']

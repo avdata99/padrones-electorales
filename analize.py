@@ -45,6 +45,10 @@ for arg in sys.argv:
 
     if arg == '--diff':
         diff = True
+    
+    anon = True
+    if arg == '--unanon':
+        anon = False
         
 
 
@@ -133,7 +137,10 @@ for p in padrones:
         if p['apellido_column'] > -1:
             nombre = '%s %s' % (line[p['apellido_column']].decode('utf-8'), nombre)    
             
-        anon_linea = 'DNI: %s*** NOMBRE: %s********* DOMICILIO: %s' % (str(dni)[:5], nombre[:8], domicilio.decode('utf-8')) # linea anonimizada
+        if anon:
+            anon_linea = 'DNI: %s*** NOMBRE: %s********* DOMICILIO: %s' % (str(dni)[:5], nombre[:8], domicilio.decode('utf-8')) # linea anonimizada
+        else:
+            anon_linea = 'DNI: %s NOMBRE: %s DOMICILIO: %s' % (str(dni), nombre, domicilio.decode('utf-8')) # linea anonimizada
         
         # quitar espacios multiples
         try:
