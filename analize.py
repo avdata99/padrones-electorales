@@ -33,7 +33,8 @@ for arg in sys.argv:
         print "  --just=Padron1,Padron2 Analizar SOLO los padrones listados. Identificar el padron con el campo ID (9 de la lista)"
         print "  --repetidos Analizar los DNIs repetidos y escribirlos en <dnis_repetidos.csv>"
         print "  --diff Analizar los DNIs NO repetidos y grabar a <diff.csv>. Util para dos padrones de la misma ciudad"
-        print ""
+        print "  --unanon publicar con datos completos sin anonimizar"
+        print "  --maxhabitantes cantidad de personas por domicilio minima para publicar (default=5)"
         exit(0)
         
     if arg.startswith('--just'):
@@ -49,6 +50,11 @@ for arg in sys.argv:
     anon = True
     if arg == '--unanon':
         anon = False
+
+    maxhabitantes = 5
+    if arg.startswith('--maxhabitantes'):
+        p = arg.split('=')
+        maxhabitantes = int(p[1])
         
 
 
@@ -167,10 +173,11 @@ for p in padrones:
         d2 = line[p['nombre_column']]
         d3 = line[p['apellido_column']]
         d4 = line[p['calle_column']]
-        # line.remove(d1)
-        # line.remove(d2)
-        # line.remove(d3)
-        # line.remove(d4)
+        if anon:
+            line.remove(d1)
+            line.remove(d2)
+            line.remove(d3)
+            line.remove(d4)
         linea = unicode(line) # los saldos
         este = {'Padron': p['nombre'], 'linea': linea, 'domicilio': domicilio, 'nombre': nombre}
         
@@ -253,6 +260,8 @@ for p in padrones:
     # primero los domicilios y su conteo
     for domicilio in lista_ord:
         k, v = domicilio
+        if len(v['usos']) < maxhabitantes:
+            continue
         f.write('%s :: %d USOS \n' % (k, len(v['usos'])))
 
     # mostrar errores
@@ -281,6 +290,9 @@ for p in padrones:
     # ahora los dpomicilios y el detalle
     for domicilio in lista_ord:
         k, v = domicilio
+
+        if len(v['usos']) < maxhabitantes:
+            continue
         f.write('\n===========================================\n')
         f.write('%s :: %d USOS \n' % (k, len(v['usos'])))
         for usos in v['usos']:
