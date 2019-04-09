@@ -24,6 +24,8 @@ for arg in sys.argv:
         print "    7: No me acuerdo"
         print "    8: Detalle de la eleccion que usa este padron"
         print "    9: ID unico sin espacios (para usar con --just por ejemplo)"
+        print "    10: Apellido"
+        print "    11: Nombre"
         print ""
         print "  --PARAMS--"
         print ""
@@ -158,10 +160,10 @@ for p in padrones:
         d2 = line[p['nombre_column']]
         d3 = line[p['apellido_column']]
         d4 = line[p['calle_column']]
-        line.remove(d1)
-        line.remove(d2)
-        line.remove(d3)
-        line.remove(d4)
+        # line.remove(d1)
+        # line.remove(d2)
+        # line.remove(d3)
+        # line.remove(d4)
         linea = unicode(line) # los saldos
         este = {'Padron': p['nombre'], 'linea': linea, 'domicilio': domicilio, 'nombre': nombre}
         
